@@ -1,4 +1,4 @@
-**[linkedin-private-api](../README.md)**
+**[linkedin-private-api-extended](../README.md)**
 
 > [Globals](../globals.md) / "src/entities/linkedin-base-company"
 
@@ -20,4 +20,4 @@
 
 • `Const` **BASE\_COMPANY\_TYPE**: \"com.linkedin.voyager.organization.Company\" = "com.linkedin.voyager.organization.Company"
 
-*Defined in [src/entities/linkedin-base-company.ts:3](https://github.com/eilonmore/linkedin-private-api/blob/d17dc2a/src/entities/linkedin-base-company.ts#L3)*
+*Defined in [src/entities/linkedin-base-company.ts:3](https://github.com/khanhtranngoccva/linkedin-private-api/blob/0b23a8c/src/entities/linkedin-base-company.ts#L3)*

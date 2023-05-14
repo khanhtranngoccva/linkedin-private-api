@@ -1,4 +1,4 @@
-**[linkedin-private-api](../README.md)**
+**[linkedin-private-api-extended](../README.md)**
 
 > [Globals](../globals.md) / ["src/core/client"](../modules/_src_core_client_.md) / Client
 
@@ -17,6 +17,7 @@
 ### Properties
 
 * [conversation](_src_core_client_.client.md#conversation)
+* [feed](_src_core_client_.client.md#feed)
 * [invitation](_src_core_client_.client.md#invitation)
 * [login](_src_core_client_.client.md#login)
 * [message](_src_core_client_.client.md#message)
@@ -30,7 +31,7 @@
 
 \+ **new Client**(`__namedParameters?`: { proxy: undefined \| AxiosProxyConfig  }): [Client](_src_core_client_.client.md)
 
-*Defined in [src/core/client.ts:18](https://github.com/eilonmore/linkedin-private-api/blob/d17dc2a/src/core/client.ts#L18)*
+*Defined in [src/core/client.ts:18](https://github.com/khanhtranngoccva/linkedin-private-api/blob/0b23a8c/src/core/client.ts#L18)*
 
 #### Parameters:
 
@@ -46,7 +47,15 @@ Name | Type | Default value |
 
 •  **conversation**: [ConversationRepository](_src_repositories_conversation_repository_.conversationrepository.md) = new ConversationRepository({ client: this })
 
-*Defined in [src/core/client.ts:32](https://github.com/eilonmore/linkedin-private-api/blob/d17dc2a/src/core/client.ts#L32)*
+*Defined in [src/core/client.ts:32](https://github.com/khanhtranngoccva/linkedin-private-api/blob/0b23a8c/src/core/client.ts#L32)*
+
+___
+
+### feed
+
+•  **feed**: [FeedRepository](_src_repositories_feed_repository_.feedrepository.md) = new FeedRepository({ client: this })
+
+*Defined in [src/core/client.ts:36](https://github.com/khanhtranngoccva/linkedin-private-api/blob/0b23a8c/src/core/client.ts#L36)*
 
 ___
 
@@ -54,7 +63,7 @@ ___
 
 •  **invitation**: [InvitationRepository](_src_repositories_invitation_repository_.invitationrepository.md) = new InvitationRepository({ client: this })
 
-*Defined in [src/core/client.ts:28](https://github.com/eilonmore/linkedin-private-api/blob/d17dc2a/src/core/client.ts#L28)*
+*Defined in [src/core/client.ts:28](https://github.com/khanhtranngoccva/linkedin-private-api/blob/0b23a8c/src/core/client.ts#L28)*
 
 ___
 
@@ -62,7 +71,7 @@ ___
 
 •  **login**: [Login](_src_core_login_.login.md) = new Login({ client: this })
 
-*Defined in [src/core/client.ts:24](https://github.com/eilonmore/linkedin-private-api/blob/d17dc2a/src/core/client.ts#L24)*
+*Defined in [src/core/client.ts:24](https://github.com/khanhtranngoccva/linkedin-private-api/blob/0b23a8c/src/core/client.ts#L24)*
 
 ___
 
@@ -70,7 +79,7 @@ ___
 
 •  **message**: [MessageRepository](_src_repositories_message_repository_.messagerepository.md) = new MessageRepository({ client: this })
 
-*Defined in [src/core/client.ts:34](https://github.com/eilonmore/linkedin-private-api/blob/d17dc2a/src/core/client.ts#L34)*
+*Defined in [src/core/client.ts:34](https://github.com/khanhtranngoccva/linkedin-private-api/blob/0b23a8c/src/core/client.ts#L34)*
 
 ___
 
@@ -78,7 +87,7 @@ ___
 
 •  **profile**: [ProfileRepository](_src_repositories_profile_repository_.profilerepository.md) = new ProfileRepository({ client: this })
 
-*Defined in [src/core/client.ts:30](https://github.com/eilonmore/linkedin-private-api/blob/d17dc2a/src/core/client.ts#L30)*
+*Defined in [src/core/client.ts:30](https://github.com/khanhtranngoccva/linkedin-private-api/blob/0b23a8c/src/core/client.ts#L30)*
 
 ___
 
@@ -86,7 +95,7 @@ ___
 
 •  **request**: [LinkedInRequest](_src_core_linkedin_request_.linkedinrequest.md)
 
-*Defined in [src/core/client.ts:18](https://github.com/eilonmore/linkedin-private-api/blob/d17dc2a/src/core/client.ts#L18)*
+*Defined in [src/core/client.ts:18](https://github.com/khanhtranngoccva/linkedin-private-api/blob/0b23a8c/src/core/client.ts#L18)*
 
 ___
 
@@ -94,4 +103,4 @@ ___
 
 •  **search**: [SearchRepository](_src_repositories_search_repository_.searchrepository.md) = new SearchRepository({ client: this })
 
-*Defined in [src/core/client.ts:26](https://github.com/eilonmore/linkedin-private-api/blob/d17dc2a/src/core/client.ts#L26)*
+*Defined in [src/core/client.ts:26](https://github.com/khanhtranngoccva/linkedin-private-api/blob/0b23a8c/src/core/client.ts#L26)*

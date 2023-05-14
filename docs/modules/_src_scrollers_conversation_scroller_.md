@@ -1,4 +1,4 @@
-**[linkedin-private-api](../README.md)**
+**[linkedin-private-api-extended](../README.md)**
 
 > [Globals](../globals.md) / "src/scrollers/conversation.scroller"
 

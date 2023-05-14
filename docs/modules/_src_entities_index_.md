@@ -1,4 +1,4 @@
-**[linkedin-private-api](../README.md)**
+**[linkedin-private-api-extended](../README.md)**
 
 > [Globals](../globals.md) / "src/entities/index"
 
@@ -24,6 +24,7 @@
 * [LinkedEventCreateResponse](_src_entities_index_.md#linkedeventcreateresponse)
 * [LinkedInBaseCompany](_src_entities_index_.md#linkedinbasecompany)
 * [LinkedInCollectionResponse](_src_entities_index_.md#linkedincollectionresponse)
+* [LinkedInCollectionResponseVariant2](_src_entities_index_.md#linkedincollectionresponsevariant2)
 * [LinkedInCompany](_src_entities_index_.md#linkedincompany)
 * [LinkedInEvent](_src_entities_index_.md#linkedinevent)
 * [LinkedInEventUrn](_src_entities_index_.md#linkedineventurn)
@@ -153,6 +154,12 @@ ___
 ### LinkedInCollectionResponse
 
 Re-exports: [LinkedInCollectionResponse](../interfaces/_src_entities_linkedin_collection_response_entity_.linkedincollectionresponse.md)
+
+___
+
+### LinkedInCollectionResponseVariant2
+
+Re-exports: [LinkedInCollectionResponseVariant2](../interfaces/_src_entities_linkedin_collection_response_entity_.linkedincollectionresponsevariant2.md)
 
 ___
 

@@ -1,4 +1,4 @@
-**[linkedin-private-api](../README.md)**
+**[linkedin-private-api-extended](../README.md)**
 
 > [Globals](../globals.md) / "src/entities/linkedin-event.entity"
 
@@ -24,7 +24,7 @@
 
 Ƭ  **LinkedInEventUrn**: string
 
-*Defined in [src/entities/linkedin-event.entity.ts:1](https://github.com/eilonmore/linkedin-private-api/blob/d17dc2a/src/entities/linkedin-event.entity.ts#L1)*
+*Defined in [src/entities/linkedin-event.entity.ts:1](https://github.com/khanhtranngoccva/linkedin-private-api/blob/0b23a8c/src/entities/linkedin-event.entity.ts#L1)*
 
 ## Variables
 
@@ -32,4 +32,4 @@
 
 • `Const` **EVENT\_TYPE**: \"com.linkedin.voyager.messaging.Event\" = "com.linkedin.voyager.messaging.Event"
 
-*Defined in [src/entities/linkedin-event.entity.ts:3](https://github.com/eilonmore/linkedin-private-api/blob/d17dc2a/src/entities/linkedin-event.entity.ts#L3)*
+*Defined in [src/entities/linkedin-event.entity.ts:3](https://github.com/khanhtranngoccva/linkedin-private-api/blob/0b23a8c/src/entities/linkedin-event.entity.ts#L3)*

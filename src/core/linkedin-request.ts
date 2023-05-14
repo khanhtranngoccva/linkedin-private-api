@@ -5,6 +5,7 @@ import { MessageRequest } from '../requests/message.request';
 import { ProfileRequest } from '../requests/profile.request';
 import { SearchRequest } from '../requests/search.request';
 import { Request } from './request';
+import {FeedRequest} from "../requests/feed.request";
 
 export class LinkedInRequest extends Request {
   conversation = new ConversationRequest({ request: this });
@@ -18,4 +19,6 @@ export class LinkedInRequest extends Request {
   search = new SearchRequest({ request: this });
 
   auth = new AuthRequest({ request: this });
+
+  feed = new FeedRequest({ request: this });
 }

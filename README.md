@@ -7,7 +7,7 @@ No tokens are needed for using this API, only a working LinkedIn account.
 ## Installation
 
 ```
-npm install linkedin-private-api
+npm install @khanhtranngoccva/linkedin-private-api
 ```
 
 ## Example usage

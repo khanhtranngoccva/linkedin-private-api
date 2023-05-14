@@ -1,4 +1,4 @@
-**[linkedin-private-api](../README.md)**
+**[linkedin-private-api-extended](../README.md)**
 
 > [Globals](../globals.md) / "src/repositories/index"
 
@@ -8,18 +8,33 @@
 
 ### References
 
+* [CategorizedFeedResponse](_src_repositories_index_.md#categorizedfeedresponse)
 * [ConversationRepository](_src_repositories_index_.md#conversationrepository)
+* [FeedRepository](_src_repositories_index_.md#feedrepository)
 * [InvitationRepository](_src_repositories_index_.md#invitationrepository)
 * [MessageRepository](_src_repositories_index_.md#messagerepository)
 * [ProfileRepository](_src_repositories_index_.md#profilerepository)
 * [SearchRepository](_src_repositories_index_.md#searchrepository)
+* [categorizeFeedFromResponse](_src_repositories_index_.md#categorizefeedfromresponse)
 * [getProfilesFromResponse](_src_repositories_index_.md#getprofilesfromresponse)
 
 ## References
 
+### CategorizedFeedResponse
+
+Re-exports: [CategorizedFeedResponse](../interfaces/_src_repositories_feed_repository_.categorizedfeedresponse.md)
+
+___
+
 ### ConversationRepository
 
 Re-exports: [ConversationRepository](../classes/_src_repositories_conversation_repository_.conversationrepository.md)
+
+___
+
+### FeedRepository
+
+Re-exports: [FeedRepository](../classes/_src_repositories_feed_repository_.feedrepository.md)
 
 ___
 
@@ -44,6 +59,12 @@ ___
 ### SearchRepository
 
 Re-exports: [SearchRepository](../classes/_src_repositories_search_repository_.searchrepository.md)
+
+___
+
+### categorizeFeedFromResponse
+
+Re-exports: [categorizeFeedFromResponse](_src_repositories_feed_repository_.md#categorizefeedfromresponse)
 
 ___
 

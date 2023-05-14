@@ -1,7 +1,7 @@
 import { AxiosProxyConfig } from 'axios';
 
 import {
-  ConversationRepository,
+  ConversationRepository, FeedRepository,
   InvitationRepository,
   MessageRepository,
   ProfileRepository,
@@ -32,4 +32,6 @@ export class Client {
   conversation = new ConversationRepository({ client: this });
 
   message = new MessageRepository({ client: this });
+
+  feed = new FeedRepository({ client: this });
 }

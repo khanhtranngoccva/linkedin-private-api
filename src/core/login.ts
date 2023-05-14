@@ -1,135 +1,143 @@
-import { parse as parseCookie } from 'cookie';
+import {parse as parseCookie} from 'cookie';
 import * as fs from 'fs/promises';
-import { merge, pickBy, reduce } from 'lodash';
+import {merge, pickBy, reduce} from 'lodash';
 
-import { requestHeaders } from '../../config';
-import { AnonymousCookies } from '../types/anonymous-cookies';
-import { AuthCookies } from '../types/auth-cookies';
-import { Client } from './client';
+import {requestHeaders} from '../../config';
+import {AnonymousCookies} from '../types/anonymous-cookies';
+import {AuthCookies} from '../types/auth-cookies';
+import {Client} from './client';
 
 const SESSIONS_PATH = `${process.cwd()}/sessions.json`;
 
 const parseCookies = <T>(cookies: string[]): Partial<T> =>
-  cookies.reduce((res, c) => {
-    let parsedCookie = parseCookie(c);
+    cookies.reduce((res, c) => {
+        let parsedCookie = parseCookie(c);
 
-    parsedCookie = pickBy(parsedCookie, (v, k) => k === Object.keys(parsedCookie)[0]);
+        parsedCookie = pickBy(parsedCookie, (v, k) => k === Object.keys(parsedCookie)[0]);
 
-    return merge(res, parsedCookie);
-  }, {});
+        return merge(res, parsedCookie);
+    }, {});
 
 export class Login {
-  private client: Client;
+    private client: Client;
 
-  constructor({ client }: { client: Client }) {
-    this.client = client;
-  }
-
-  private setRequestHeaders({ cookies }: { cookies: AuthCookies }): void {
-    const cookieStr = reduce(cookies, (res, v, k) => `${res}${k}="${v}"; `, '');
-
-    this.client.request.setHeaders({
-      ...requestHeaders,
-      cookie: cookieStr,
-      'csrf-token': cookies.JSESSIONID!,
-    });
-  }
-
-  private async readCacheFile(): Promise<Record<string, AuthCookies>> {
-    let cachedSessions: Record<string, AuthCookies>;
-
-    try {
-      const sessionsBuffer = (await fs.readFile(SESSIONS_PATH).catch(() => fs.writeFile(SESSIONS_PATH, '{}'))) || '{}';
-      cachedSessions = JSON.parse(sessionsBuffer.toString());
-    } catch (err) {
-      cachedSessions = {};
+    constructor({client}: { client: Client }) {
+        this.client = client;
     }
 
-    return cachedSessions;
-  }
+    private setRequestHeaders({cookies}: { cookies: AuthCookies }): void {
+        const cookieStr = reduce(cookies, (res, v, k) => `${res}${k}="${v}"; `, '');
 
-  private tryCacheLogin({
-    useCache = true,
-    cachedSessions,
-    username,
-  }: {
-    useCache: boolean;
-    cachedSessions: Record<string, AuthCookies>;
-    username?: string;
-  }) {
-    if (!useCache) {
-      return false;
+        this.client.request.setHeaders({
+            ...requestHeaders,
+            cookie: cookieStr,
+            'csrf-token': cookies.JSESSIONID!,
+        });
     }
 
-    if (!username) {
-      throw new TypeError('Must provide username when useCache option is true');
+    serialize(): Record<string, string> {
+        return this.client.request.request.defaults.headers;
     }
 
-    const cookies = cachedSessions[username];
-
-    if (cookies) {
-      this.setRequestHeaders({ cookies });
-
-      return true;
+    deserialize(data: Record<string, string>): void {
+        this.client.request.setHeaders(data);
     }
 
-    return false;
-  }
+    private async readCacheFile(): Promise<Record<string, AuthCookies>> {
+        let cachedSessions: Record<string, AuthCookies>;
 
-  async userPass({
-    username,
-    password,
-    useCache = true,
-  }: {
-    username: string;
-    password?: string;
-    useCache?: boolean;
-  }): Promise<Client> {
-    const cachedSessions = await this.readCacheFile();
+        try {
+            const sessionsBuffer = (await fs.readFile(SESSIONS_PATH).catch(() => fs.writeFile(SESSIONS_PATH, '{}'))) || '{}';
+            cachedSessions = JSON.parse(sessionsBuffer.toString());
+        } catch (err) {
+            cachedSessions = {};
+        }
 
-    if (this.tryCacheLogin({ useCache, cachedSessions, username })) {
-      return this.client;
+        return cachedSessions;
     }
 
-    if (!password) {
-      throw new TypeError('password is required for login');
+    private tryCacheLogin({
+                              useCache = true,
+                              cachedSessions,
+                              username,
+                          }: {
+        useCache: boolean;
+        cachedSessions: Record<string, AuthCookies>;
+        username?: string;
+    }) {
+        if (!useCache) {
+            return false;
+        }
+
+        if (!username) {
+            throw new TypeError('Must provide username when useCache option is true');
+        }
+
+        const cookies = cachedSessions[username];
+
+        if (cookies) {
+            this.setRequestHeaders({cookies});
+
+            return true;
+        }
+
+        return false;
     }
 
-    const anonymousAuthResponse = await this.client.request.auth.getAnonymousAuth();
+    async userPass({
+                       username,
+                       password,
+                       useCache = true,
+                   }: {
+        username: string;
+        password?: string;
+        useCache?: boolean;
+    }): Promise<Client> {
+        const cachedSessions = await this.readCacheFile();
 
-    const sessionId = parseCookies<AnonymousCookies>(anonymousAuthResponse.headers['set-cookie']).JSESSIONID!;
+        if (this.tryCacheLogin({useCache, cachedSessions, username})) {
+            return this.client;
+        }
 
-    const authRes = await this.client.request.auth.authenticateUser({ username, password, sessionId });
+        if (!password) {
+            throw new TypeError('password is required for login');
+        }
 
-    const parsedCookies = parseCookies<AuthCookies>(authRes.headers['set-cookie']);
-    fs.writeFile(SESSIONS_PATH, JSON.stringify({ ...cachedSessions, [username]: parsedCookies }));
+        const anonymousAuthResponse = await this.client.request.auth.getAnonymousAuth();
 
-    this.setRequestHeaders({ cookies: parsedCookies });
+        const sessionId = parseCookies<AnonymousCookies>(anonymousAuthResponse.headers['set-cookie']).JSESSIONID!;
 
-    return this.client;
-  }
+        const authRes = await this.client.request.auth.authenticateUser({username, password, sessionId});
 
-  async userCookie({
-    username,
-    cookies,
-    useCache = true,
-  }: {
-    username?: string;
-    cookies: { JSESSIONID: string; li_at?: string };
-    useCache?: boolean;
-  }): Promise<Client> {
-    const cachedSessions = await this.readCacheFile();
+        const parsedCookies = parseCookies<AuthCookies>(authRes.headers['set-cookie']);
+        fs.writeFile(SESSIONS_PATH, JSON.stringify({...cachedSessions, [username]: parsedCookies}));
 
-    if (this.tryCacheLogin({ useCache, cachedSessions, username })) {
-      return this.client;
+        this.setRequestHeaders({cookies: parsedCookies});
+
+        return this.client;
     }
 
-    this.setRequestHeaders({ cookies });
+    async userCookie({
+                         username,
+                         cookies,
+                         useCache = true,
+                     }: {
+        username?: string;
+        cookies: { JSESSIONID: string; li_at?: string };
+        useCache?: boolean;
+    }): Promise<Client> {
+        const cachedSessions = await this.readCacheFile();
 
-    if (username) {
-      fs.writeFile(SESSIONS_PATH, JSON.stringify({ ...cachedSessions, [username]: cookies }));
+        if (this.tryCacheLogin({useCache, cachedSessions, username})) {
+            return this.client;
+        }
+
+        this.setRequestHeaders({cookies});
+
+        if (username) {
+            fs.writeFile(SESSIONS_PATH, JSON.stringify({...cachedSessions, [username]: cookies}));
+        }
+
+        return this.client;
     }
-
-    return this.client;
-  }
 }

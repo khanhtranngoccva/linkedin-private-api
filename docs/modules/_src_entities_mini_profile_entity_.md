@@ -1,4 +1,4 @@
-**[linkedin-private-api](../README.md)**
+**[linkedin-private-api-extended](../README.md)**
 
 > [Globals](../globals.md) / "src/entities/mini-profile.entity"
 
@@ -20,4 +20,4 @@
 
 Ƭ  **ProfileId**: string
 
-*Defined in [src/entities/mini-profile.entity.ts:3](https://github.com/eilonmore/linkedin-private-api/blob/d17dc2a/src/entities/mini-profile.entity.ts#L3)*
+*Defined in [src/entities/mini-profile.entity.ts:3](https://github.com/khanhtranngoccva/linkedin-private-api/blob/0b23a8c/src/entities/mini-profile.entity.ts#L3)*
