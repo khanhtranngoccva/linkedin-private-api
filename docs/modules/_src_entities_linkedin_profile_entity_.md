@@ -25,7 +25,7 @@
 
 Ƭ  **ProfileUrn**: string
 
-*Defined in [src/entities/linkedin-profile.entity.ts:38](https://github.com/khanhtranngoccva/linkedin-private-api/blob/0b23a8c/src/entities/linkedin-profile.entity.ts#L38)*
+*Defined in [src/entities/linkedin-profile.entity.ts:38](https://github.com/khanhtranngoccva/linkedin-private-api/blob/86b0130/src/entities/linkedin-profile.entity.ts#L38)*
 
 ## Variables
 
@@ -33,4 +33,4 @@
 
 • `Const` **PROFILE\_TYPE**: \"com.linkedin.voyager.dash.identity.profile.Profile\" = "com.linkedin.voyager.dash.identity.profile.Profile"
 
-*Defined in [src/entities/linkedin-profile.entity.ts:4](https://github.com/khanhtranngoccva/linkedin-private-api/blob/0b23a8c/src/entities/linkedin-profile.entity.ts#L4)*
+*Defined in [src/entities/linkedin-profile.entity.ts:4](https://github.com/khanhtranngoccva/linkedin-private-api/blob/86b0130/src/entities/linkedin-profile.entity.ts#L4)*

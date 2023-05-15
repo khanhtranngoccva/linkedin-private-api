@@ -26,7 +26,7 @@
 
 •  **$type**: *typeof* [VIDEO\_PROGRESSIVE\_DOWNLOAD\_METADATA\_TYPE](../modules/_src_entities_linkedin_video_progressive_download_metadata_entity_.md#video_progressive_download_metadata_type)
 
-*Defined in [src/entities/linkedin-video-progressive-download-metadata.entity.ts:6](https://github.com/khanhtranngoccva/linkedin-private-api/blob/0b23a8c/src/entities/linkedin-video-progressive-download-metadata.entity.ts#L6)*
+*Defined in [src/entities/linkedin-video-progressive-download-metadata.entity.ts:6](https://github.com/khanhtranngoccva/linkedin-private-api/blob/86b0130/src/entities/linkedin-video-progressive-download-metadata.entity.ts#L6)*
 
 ___
 
@@ -34,7 +34,7 @@ ___
 
 •  **bitRate**: number
 
-*Defined in [src/entities/linkedin-video-progressive-download-metadata.entity.ts:7](https://github.com/khanhtranngoccva/linkedin-private-api/blob/0b23a8c/src/entities/linkedin-video-progressive-download-metadata.entity.ts#L7)*
+*Defined in [src/entities/linkedin-video-progressive-download-metadata.entity.ts:7](https://github.com/khanhtranngoccva/linkedin-private-api/blob/86b0130/src/entities/linkedin-video-progressive-download-metadata.entity.ts#L7)*
 
 ___
 
@@ -42,7 +42,7 @@ ___
 
 •  **height**: number
 
-*Defined in [src/entities/linkedin-video-progressive-download-metadata.entity.ts:8](https://github.com/khanhtranngoccva/linkedin-private-api/blob/0b23a8c/src/entities/linkedin-video-progressive-download-metadata.entity.ts#L8)*
+*Defined in [src/entities/linkedin-video-progressive-download-metadata.entity.ts:8](https://github.com/khanhtranngoccva/linkedin-private-api/blob/86b0130/src/entities/linkedin-video-progressive-download-metadata.entity.ts#L8)*
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 •  **mediaType**: string
 
-*Defined in [src/entities/linkedin-video-progressive-download-metadata.entity.ts:10](https://github.com/khanhtranngoccva/linkedin-private-api/blob/0b23a8c/src/entities/linkedin-video-progressive-download-metadata.entity.ts#L10)*
+*Defined in [src/entities/linkedin-video-progressive-download-metadata.entity.ts:10](https://github.com/khanhtranngoccva/linkedin-private-api/blob/86b0130/src/entities/linkedin-video-progressive-download-metadata.entity.ts#L10)*
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 •  **size**: number
 
-*Defined in [src/entities/linkedin-video-progressive-download-metadata.entity.ts:11](https://github.com/khanhtranngoccva/linkedin-private-api/blob/0b23a8c/src/entities/linkedin-video-progressive-download-metadata.entity.ts#L11)*
+*Defined in [src/entities/linkedin-video-progressive-download-metadata.entity.ts:11](https://github.com/khanhtranngoccva/linkedin-private-api/blob/86b0130/src/entities/linkedin-video-progressive-download-metadata.entity.ts#L11)*
 
 ___
 
@@ -66,7 +66,7 @@ ___
 
 •  **streamingLocation**: [LinkedinVideoStreamingLocation](_src_entities_linkedin_video_streaming_location_entity_.linkedinvideostreaminglocation.md)[]
 
-*Defined in [src/entities/linkedin-video-progressive-download-metadata.entity.ts:12](https://github.com/khanhtranngoccva/linkedin-private-api/blob/0b23a8c/src/entities/linkedin-video-progressive-download-metadata.entity.ts#L12)*
+*Defined in [src/entities/linkedin-video-progressive-download-metadata.entity.ts:12](https://github.com/khanhtranngoccva/linkedin-private-api/blob/86b0130/src/entities/linkedin-video-progressive-download-metadata.entity.ts#L12)*
 
 ___
 
@@ -74,4 +74,4 @@ ___
 
 •  **width**: number
 
-*Defined in [src/entities/linkedin-video-progressive-download-metadata.entity.ts:9](https://github.com/khanhtranngoccva/linkedin-private-api/blob/0b23a8c/src/entities/linkedin-video-progressive-download-metadata.entity.ts#L9)*
+*Defined in [src/entities/linkedin-video-progressive-download-metadata.entity.ts:9](https://github.com/khanhtranngoccva/linkedin-private-api/blob/86b0130/src/entities/linkedin-video-progressive-download-metadata.entity.ts#L9)*

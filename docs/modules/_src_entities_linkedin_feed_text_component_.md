@@ -20,4 +20,4 @@
 
 • `Const` **LINKEDIN\_TEXT\_COMPONENT\_TYPE**: \"com.linkedin.voyager.feed.render.TextComponent\" = "com.linkedin.voyager.feed.render.TextComponent"
 
-*Defined in [src/entities/linkedin-feed-text-component.ts:3](https://github.com/khanhtranngoccva/linkedin-private-api/blob/0b23a8c/src/entities/linkedin-feed-text-component.ts#L3)*
+*Defined in [src/entities/linkedin-feed-text-component.ts:3](https://github.com/khanhtranngoccva/linkedin-private-api/blob/86b0130/src/entities/linkedin-feed-text-component.ts#L3)*
