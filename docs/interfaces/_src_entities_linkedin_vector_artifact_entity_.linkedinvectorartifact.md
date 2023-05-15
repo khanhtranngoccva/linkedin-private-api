@@ -16,7 +16,7 @@
 * [expiresAt](_src_entities_linkedin_vector_artifact_entity_.linkedinvectorartifact.md#expiresat)
 * [fileIdentifyingUrlPathSegment](_src_entities_linkedin_vector_artifact_entity_.linkedinvectorartifact.md#fileidentifyingurlpathsegment)
 * [height](_src_entities_linkedin_vector_artifact_entity_.linkedinvectorartifact.md#height)
-* [with](_src_entities_linkedin_vector_artifact_entity_.linkedinvectorartifact.md#with)
+* [width](_src_entities_linkedin_vector_artifact_entity_.linkedinvectorartifact.md#width)
 
 ## Properties
 
@@ -24,7 +24,7 @@
 
 •  **$type**: \"com.linkedin.common.VectorArtifact\"
 
-*Defined in [src/entities/linkedin-vector-artifact.entity.ts:2](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/entities/linkedin-vector-artifact.entity.ts#L2)*
+*Defined in [src/entities/linkedin-vector-artifact.entity.ts:2](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-vector-artifact.entity.ts#L2)*
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 •  **expiresAt**: number
 
-*Defined in [src/entities/linkedin-vector-artifact.entity.ts:3](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/entities/linkedin-vector-artifact.entity.ts#L3)*
+*Defined in [src/entities/linkedin-vector-artifact.entity.ts:3](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-vector-artifact.entity.ts#L3)*
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 •  **fileIdentifyingUrlPathSegment**: string
 
-*Defined in [src/entities/linkedin-vector-artifact.entity.ts:4](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/entities/linkedin-vector-artifact.entity.ts#L4)*
+*Defined in [src/entities/linkedin-vector-artifact.entity.ts:4](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-vector-artifact.entity.ts#L4)*
 
 ___
 
@@ -48,12 +48,12 @@ ___
 
 •  **height**: number
 
-*Defined in [src/entities/linkedin-vector-artifact.entity.ts:5](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/entities/linkedin-vector-artifact.entity.ts#L5)*
+*Defined in [src/entities/linkedin-vector-artifact.entity.ts:5](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-vector-artifact.entity.ts#L5)*
 
 ___
 
-### with
+### width
 
-•  **with**: number
+•  **width**: number
 
-*Defined in [src/entities/linkedin-vector-artifact.entity.ts:6](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/entities/linkedin-vector-artifact.entity.ts#L6)*
+*Defined in [src/entities/linkedin-vector-artifact.entity.ts:6](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-vector-artifact.entity.ts#L6)*

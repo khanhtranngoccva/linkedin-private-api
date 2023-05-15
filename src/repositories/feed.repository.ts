@@ -65,13 +65,14 @@ export class FeedRepository {
                             }: { skip?: number, limit?: number, type: "chronological" | "relevance" }) {
         const data = await this.client.request.feed.fetchHome({type, limit, skip});
         const categorized = categorizeFeedFromResponse(data);
+        console.log(categorized.profiles);
         return data.data["*elements"].map(function transform(feedUpdateUrn): FeedPost {
             const curPost = categorized.feedUpdates[feedUpdateUrn];
+            console.log(curPost.actor.urn);
             const result: FeedPost = {
                 ...curPost,
                 profile: categorized.profiles[curPost.actor.urn],
             }
-            console.log(curPost.content?.$type)
             if (curPost.content?.$type === LINKEDIN_FEED_VIDEO_COMPONENT_TYPE) {
                 result.videoAttachment = categorized.videos[curPost.content["*videoPlayMetadata"]];
                 console.log("Video", result.videoAttachment);
