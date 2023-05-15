@@ -1,4 +1,4 @@
-**[linkedin-private-api-extended](../README.md)**
+**[linkedin-private-api-expanded](../README.md)**
 
 > [Globals](../globals.md) / ["src/entities/linkedin-likes.entity"](../modules/_src_entities_linkedin_likes_entity_.md) / LinkedInLikes
 
@@ -22,7 +22,7 @@
 
 •  **$type**: \"com.linkedin.voyager.feed.Likes\"
 
-*Defined in [src/entities/linkedin-likes.entity.ts:10](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-likes.entity.ts#L10)*
+*Defined in [src/entities/linkedin-likes.entity.ts:10](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-likes.entity.ts#L10)*
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 •  **elements**: unknown[]
 
-*Defined in [src/entities/linkedin-likes.entity.ts:11](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-likes.entity.ts#L11)*
+*Defined in [src/entities/linkedin-likes.entity.ts:11](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-likes.entity.ts#L11)*
 
 ___
 
@@ -38,4 +38,4 @@ ___
 
 •  **paging**: Paging
 
-*Defined in [src/entities/linkedin-likes.entity.ts:12](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-likes.entity.ts#L12)*
+*Defined in [src/entities/linkedin-likes.entity.ts:12](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-likes.entity.ts#L12)*

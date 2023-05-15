@@ -1,4 +1,4 @@
-**[linkedin-private-api-extended](../README.md)**
+**[linkedin-private-api-expanded](../README.md)**
 
 > [Globals](../globals.md) / ["src/entities/linkedin-attribute-text.entity"](../modules/_src_entities_linkedin_attribute_text_entity_.md) / AttributeText
 
@@ -21,7 +21,7 @@
 
 •  **$type**: \"com.linkedin.pemberly.text.AttributedText\"
 
-*Defined in [src/entities/linkedin-attribute-text.entity.ts:2](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-attribute-text.entity.ts#L2)*
+*Defined in [src/entities/linkedin-attribute-text.entity.ts:2](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-attribute-text.entity.ts#L2)*
 
 ___
 
@@ -29,4 +29,4 @@ ___
 
 •  **text**: string
 
-*Defined in [src/entities/linkedin-attribute-text.entity.ts:3](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-attribute-text.entity.ts#L3)*
+*Defined in [src/entities/linkedin-attribute-text.entity.ts:3](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-attribute-text.entity.ts#L3)*

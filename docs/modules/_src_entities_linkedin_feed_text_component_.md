@@ -1,4 +1,4 @@
-**[linkedin-private-api-extended](../README.md)**
+**[linkedin-private-api-expanded](../README.md)**
 
 > [Globals](../globals.md) / "src/entities/linkedin-feed-text-component"
 
@@ -20,4 +20,4 @@
 
 • `Const` **LINKEDIN\_TEXT\_COMPONENT\_TYPE**: \"com.linkedin.voyager.feed.render.TextComponent\" = "com.linkedin.voyager.feed.render.TextComponent"
 
-*Defined in [src/entities/linkedin-feed-text-component.ts:3](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-feed-text-component.ts#L3)*
+*Defined in [src/entities/linkedin-feed-text-component.ts:3](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-feed-text-component.ts#L3)*

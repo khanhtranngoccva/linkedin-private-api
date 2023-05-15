@@ -1,8 +1,11 @@
 import {LinkedInComments} from "./linkedin-comments.entity";
 import {LinkedInLikes} from "./linkedin-likes.entity";
 
+export const LINKEDIN_FEED_SOCIAL_DETAIL_TYPE = "com.linkedin.voyager.feed.SocialDetail";
+export type LinkedInFeedSocialDetailUrn = string;
+
 export interface LinkedInFeedSocialDetail {
-    $type: "com.linkedin.voyager.feed.SocialDetail",
+    $type: typeof LINKEDIN_FEED_SOCIAL_DETAIL_TYPE,
     "*socialPermissions": string,
     "*totalSocialActivityCounts": string,
     allowCommentersScope: string,

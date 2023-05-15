@@ -1,4 +1,4 @@
-**[linkedin-private-api-extended](../README.md)**
+**[linkedin-private-api-expanded](../README.md)**
 
 > [Globals](../globals.md) / ["src/entities/linkedin-collection-response.entity"](../modules/_src_entities_linkedin_collection_response_entity_.md) / LinkedInCollectionResponseVariant2
 
@@ -29,7 +29,7 @@ Name | Default |
 
 •  **data**: { $type: \"com.linkedin.restli.common.CollectionResponse\" ; *elements: T[] ; entityUrn: string ; metadata?: M ; paging: Paging  }
 
-*Defined in [src/entities/linkedin-collection-response.entity.ts:19](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-collection-response.entity.ts#L19)*
+*Defined in [src/entities/linkedin-collection-response.entity.ts:19](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-collection-response.entity.ts#L19)*
 
 #### Type declaration:
 
@@ -47,4 +47,4 @@ ___
 
 •  **included**: I[]
 
-*Defined in [src/entities/linkedin-collection-response.entity.ts:26](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-collection-response.entity.ts#L26)*
+*Defined in [src/entities/linkedin-collection-response.entity.ts:26](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-collection-response.entity.ts#L26)*

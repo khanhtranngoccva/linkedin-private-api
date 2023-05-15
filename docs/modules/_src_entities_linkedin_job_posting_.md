@@ -1,4 +1,4 @@
-**[linkedin-private-api-extended](../README.md)**
+**[linkedin-private-api-expanded](../README.md)**
 
 > [Globals](../globals.md) / "src/entities/linkedin-job-posting"
 
@@ -21,4 +21,4 @@
 
 • `Const` **JOB\_POSTING\_TYPE**: \"com.linkedin.voyager.jobs.JobPosting\" = "com.linkedin.voyager.jobs.JobPosting"
 
-*Defined in [src/entities/linkedin-job-posting.ts:1](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-job-posting.ts#L1)*
+*Defined in [src/entities/linkedin-job-posting.ts:1](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-job-posting.ts#L1)*

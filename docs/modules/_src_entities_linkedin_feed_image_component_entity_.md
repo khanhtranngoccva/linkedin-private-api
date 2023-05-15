@@ -1,4 +1,4 @@
-**[linkedin-private-api-extended](../README.md)**
+**[linkedin-private-api-expanded](../README.md)**
 
 > [Globals](../globals.md) / "src/entities/linkedin-feed-image-component.entity"
 
@@ -20,4 +20,4 @@
 
 • `Const` **LINKEDIN\_FEED\_IMAGE\_COMPONENT\_TYPE**: \"com.linkedin.voyager.feed.render.ImageComponent\" = "com.linkedin.voyager.feed.render.ImageComponent"
 
-*Defined in [src/entities/linkedin-feed-image-component.entity.ts:3](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-feed-image-component.entity.ts#L3)*
+*Defined in [src/entities/linkedin-feed-image-component.entity.ts:3](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-feed-image-component.entity.ts#L3)*

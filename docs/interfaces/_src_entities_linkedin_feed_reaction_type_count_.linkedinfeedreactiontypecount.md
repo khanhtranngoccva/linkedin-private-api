@@ -1,4 +1,4 @@
-**[linkedin-private-api-extended](../README.md)**
+**[linkedin-private-api-expanded](../README.md)**
 
 > [Globals](../globals.md) / ["src/entities/linkedin-feed-reaction-type-count"](../modules/_src_entities_linkedin_feed_reaction_type_count_.md) / LinkedInFeedReactionTypeCount
 
@@ -22,7 +22,7 @@
 
 •  **reactionType**: \"LIKE\" \| \"EMPATHY\" \| \"PRAISE\" \| \"INTEREST\" \| \"APPRECIATION\" \| \"MAYBE\" \| \"ENTERTAINMENT\" \| unknown
 
-*Defined in [src/entities/linkedin-feed-reaction-type-count.ts:2](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-feed-reaction-type-count.ts#L2)*
+*Defined in [src/entities/linkedin-feed-reaction-type-count.ts:2](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-feed-reaction-type-count.ts#L2)*
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 •  **socialDetailEntityUrn**: string
 
-*Defined in [src/entities/linkedin-feed-reaction-type-count.ts:3](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-feed-reaction-type-count.ts#L3)*
+*Defined in [src/entities/linkedin-feed-reaction-type-count.ts:3](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-feed-reaction-type-count.ts#L3)*
 
 ___
 
@@ -38,4 +38,4 @@ ___
 
 •  **urn**: string
 
-*Defined in [src/entities/linkedin-feed-reaction-type-count.ts:4](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-feed-reaction-type-count.ts#L4)*
+*Defined in [src/entities/linkedin-feed-reaction-type-count.ts:4](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-feed-reaction-type-count.ts#L4)*

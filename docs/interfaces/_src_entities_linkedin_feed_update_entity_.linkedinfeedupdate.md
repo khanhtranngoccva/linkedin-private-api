@@ -1,4 +1,4 @@
-**[linkedin-private-api-extended](../README.md)**
+**[linkedin-private-api-expanded](../README.md)**
 
 > [Globals](../globals.md) / ["src/entities/linkedin-feed-update.entity"](../modules/_src_entities_linkedin_feed_update_entity_.md) / LinkedInFeedUpdate
 
@@ -47,7 +47,7 @@
 
 •  **$type**: *typeof* [LINKEDIN\_FEED\_UPDATE\_TYPE](../modules/_src_entities_linkedin_feed_update_entity_.md#linkedin_feed_update_type)
 
-*Defined in [src/entities/linkedin-feed-update.entity.ts:10](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-feed-update.entity.ts#L10)*
+*Defined in [src/entities/linkedin-feed-update.entity.ts:10](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-feed-update.entity.ts#L10)*
 
 ___
 
@@ -55,7 +55,7 @@ ___
 
 •  ***socialDetail**: string
 
-*Defined in [src/entities/linkedin-feed-update.entity.ts:11](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-feed-update.entity.ts#L11)*
+*Defined in [src/entities/linkedin-feed-update.entity.ts:11](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-feed-update.entity.ts#L11)*
 
 ___
 
@@ -63,7 +63,7 @@ ___
 
 •  **actor**: [LinkedInFeedActor](_src_entities_linkedin_feed_actor_entity_.linkedinfeedactor.md)
 
-*Defined in [src/entities/linkedin-feed-update.entity.ts:12](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-feed-update.entity.ts#L12)*
+*Defined in [src/entities/linkedin-feed-update.entity.ts:12](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-feed-update.entity.ts#L12)*
 
 ___
 
@@ -71,7 +71,7 @@ ___
 
 •  **additionalContents**: unknown
 
-*Defined in [src/entities/linkedin-feed-update.entity.ts:13](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-feed-update.entity.ts#L13)*
+*Defined in [src/entities/linkedin-feed-update.entity.ts:13](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-feed-update.entity.ts#L13)*
 
 ___
 
@@ -79,7 +79,7 @@ ___
 
 •  **aggregatedContent**: unknown
 
-*Defined in [src/entities/linkedin-feed-update.entity.ts:14](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-feed-update.entity.ts#L14)*
+*Defined in [src/entities/linkedin-feed-update.entity.ts:14](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-feed-update.entity.ts#L14)*
 
 ___
 
@@ -87,7 +87,7 @@ ___
 
 •  **annotation**: unknown
 
-*Defined in [src/entities/linkedin-feed-update.entity.ts:15](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-feed-update.entity.ts#L15)*
+*Defined in [src/entities/linkedin-feed-update.entity.ts:15](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-feed-update.entity.ts#L15)*
 
 ___
 
@@ -95,7 +95,7 @@ ___
 
 •  **carouselContent**: unknown
 
-*Defined in [src/entities/linkedin-feed-update.entity.ts:16](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-feed-update.entity.ts#L16)*
+*Defined in [src/entities/linkedin-feed-update.entity.ts:16](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-feed-update.entity.ts#L16)*
 
 ___
 
@@ -103,7 +103,7 @@ ___
 
 •  **commentary**: [LinkedInFeedTextComponent](_src_entities_linkedin_feed_text_component_entity_.linkedinfeedtextcomponent.md)
 
-*Defined in [src/entities/linkedin-feed-update.entity.ts:17](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-feed-update.entity.ts#L17)*
+*Defined in [src/entities/linkedin-feed-update.entity.ts:17](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-feed-update.entity.ts#L17)*
 
 ___
 
@@ -111,7 +111,7 @@ ___
 
 •  **content**: [LinkedInFeedImageComponent](_src_entities_linkedin_feed_image_component_entity_.linkedinfeedimagecomponent.md) \| [LinkedInFeedVideoComponent](_src_entities_linkedin_feed_video_component_entity_.linkedinfeedvideocomponent.md) \| null
 
-*Defined in [src/entities/linkedin-feed-update.entity.ts:19](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-feed-update.entity.ts#L19)*
+*Defined in [src/entities/linkedin-feed-update.entity.ts:19](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-feed-update.entity.ts#L19)*
 
 ___
 
@@ -119,7 +119,7 @@ ___
 
 •  **contextualDescription**: unknown
 
-*Defined in [src/entities/linkedin-feed-update.entity.ts:20](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-feed-update.entity.ts#L20)*
+*Defined in [src/entities/linkedin-feed-update.entity.ts:20](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-feed-update.entity.ts#L20)*
 
 ___
 
@@ -127,7 +127,7 @@ ___
 
 •  **contextualDescriptionV2**: unknown
 
-*Defined in [src/entities/linkedin-feed-update.entity.ts:21](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-feed-update.entity.ts#L21)*
+*Defined in [src/entities/linkedin-feed-update.entity.ts:21](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-feed-update.entity.ts#L21)*
 
 ___
 
@@ -135,7 +135,7 @@ ___
 
 •  **contextualHeader**: unknown
 
-*Defined in [src/entities/linkedin-feed-update.entity.ts:22](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-feed-update.entity.ts#L22)*
+*Defined in [src/entities/linkedin-feed-update.entity.ts:22](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-feed-update.entity.ts#L22)*
 
 ___
 
@@ -143,7 +143,7 @@ ___
 
 •  **dashEntityUrn**: string
 
-*Defined in [src/entities/linkedin-feed-update.entity.ts:23](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-feed-update.entity.ts#L23)*
+*Defined in [src/entities/linkedin-feed-update.entity.ts:23](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-feed-update.entity.ts#L23)*
 
 ___
 
@@ -151,7 +151,7 @@ ___
 
 •  **desktopPromoUpdate**: unknown
 
-*Defined in [src/entities/linkedin-feed-update.entity.ts:24](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-feed-update.entity.ts#L24)*
+*Defined in [src/entities/linkedin-feed-update.entity.ts:24](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-feed-update.entity.ts#L24)*
 
 ___
 
@@ -159,7 +159,7 @@ ___
 
 •  **detailHeader**: unknown
 
-*Defined in [src/entities/linkedin-feed-update.entity.ts:25](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-feed-update.entity.ts#L25)*
+*Defined in [src/entities/linkedin-feed-update.entity.ts:25](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-feed-update.entity.ts#L25)*
 
 ___
 
@@ -167,7 +167,7 @@ ___
 
 •  **entityUrn**: string
 
-*Defined in [src/entities/linkedin-feed-update.entity.ts:26](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-feed-update.entity.ts#L26)*
+*Defined in [src/entities/linkedin-feed-update.entity.ts:26](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-feed-update.entity.ts#L26)*
 
 ___
 
@@ -175,7 +175,7 @@ ___
 
 •  **footer**: unknown
 
-*Defined in [src/entities/linkedin-feed-update.entity.ts:27](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-feed-update.entity.ts#L27)*
+*Defined in [src/entities/linkedin-feed-update.entity.ts:27](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-feed-update.entity.ts#L27)*
 
 ___
 
@@ -183,7 +183,7 @@ ___
 
 •  **header**: unknown
 
-*Defined in [src/entities/linkedin-feed-update.entity.ts:28](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-feed-update.entity.ts#L28)*
+*Defined in [src/entities/linkedin-feed-update.entity.ts:28](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-feed-update.entity.ts#L28)*
 
 ___
 
@@ -191,7 +191,7 @@ ___
 
 •  **highlightedComments**: unknown
 
-*Defined in [src/entities/linkedin-feed-update.entity.ts:29](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-feed-update.entity.ts#L29)*
+*Defined in [src/entities/linkedin-feed-update.entity.ts:29](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-feed-update.entity.ts#L29)*
 
 ___
 
@@ -199,7 +199,7 @@ ___
 
 •  **interstitial**: unknown
 
-*Defined in [src/entities/linkedin-feed-update.entity.ts:30](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-feed-update.entity.ts#L30)*
+*Defined in [src/entities/linkedin-feed-update.entity.ts:30](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-feed-update.entity.ts#L30)*
 
 ___
 
@@ -207,7 +207,7 @@ ___
 
 •  **leadGenFormContent**: unknown
 
-*Defined in [src/entities/linkedin-feed-update.entity.ts:31](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-feed-update.entity.ts#L31)*
+*Defined in [src/entities/linkedin-feed-update.entity.ts:31](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-feed-update.entity.ts#L31)*
 
 ___
 
@@ -215,7 +215,7 @@ ___
 
 •  **leadGenFormContentV2**: unknown
 
-*Defined in [src/entities/linkedin-feed-update.entity.ts:32](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-feed-update.entity.ts#L32)*
+*Defined in [src/entities/linkedin-feed-update.entity.ts:32](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-feed-update.entity.ts#L32)*
 
 ___
 
@@ -223,7 +223,7 @@ ___
 
 •  **relatedContent**: unknown
 
-*Defined in [src/entities/linkedin-feed-update.entity.ts:33](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-feed-update.entity.ts#L33)*
+*Defined in [src/entities/linkedin-feed-update.entity.ts:33](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-feed-update.entity.ts#L33)*
 
 ___
 
@@ -231,7 +231,7 @@ ___
 
 •  **resharedUpdate**: unknown
 
-*Defined in [src/entities/linkedin-feed-update.entity.ts:34](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-feed-update.entity.ts#L34)*
+*Defined in [src/entities/linkedin-feed-update.entity.ts:34](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-feed-update.entity.ts#L34)*
 
 ___
 
@@ -239,7 +239,7 @@ ___
 
 •  **showSocialDetail**: unknown
 
-*Defined in [src/entities/linkedin-feed-update.entity.ts:35](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-feed-update.entity.ts#L35)*
+*Defined in [src/entities/linkedin-feed-update.entity.ts:35](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-feed-update.entity.ts#L35)*
 
 ___
 
@@ -247,4 +247,4 @@ ___
 
 •  **updateMetadata**: unknown
 
-*Defined in [src/entities/linkedin-feed-update.entity.ts:36](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-feed-update.entity.ts#L36)*
+*Defined in [src/entities/linkedin-feed-update.entity.ts:36](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-feed-update.entity.ts#L36)*

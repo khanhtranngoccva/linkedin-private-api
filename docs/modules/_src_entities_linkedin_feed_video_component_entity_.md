@@ -1,4 +1,4 @@
-**[linkedin-private-api-extended](../README.md)**
+**[linkedin-private-api-expanded](../README.md)**
 
 > [Globals](../globals.md) / "src/entities/linkedin-feed-video-component.entity"
 
@@ -20,4 +20,4 @@
 
 • `Const` **LINKEDIN\_FEED\_VIDEO\_COMPONENT\_TYPE**: \"com.linkedin.voyager.feed.render.LinkedInVideoComponent\" = "com.linkedin.voyager.feed.render.LinkedInVideoComponent"
 
-*Defined in [src/entities/linkedin-feed-video-component.entity.ts:1](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-feed-video-component.entity.ts#L1)*
+*Defined in [src/entities/linkedin-feed-video-component.entity.ts:1](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-feed-video-component.entity.ts#L1)*

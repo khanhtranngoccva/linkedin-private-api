@@ -1,4 +1,4 @@
-**[linkedin-private-api-extended](../README.md)**
+**[linkedin-private-api-expanded](../README.md)**
 
 > [Globals](../globals.md) / ["src/entities/linkedin-feed-text-component.entity"](../modules/_src_entities_linkedin_feed_text_component_entity_.md) / LinkedInFeedTextComponent
 
@@ -23,7 +23,7 @@
 
 •  **$type**: \"com.linkedin.voyager.feed.render.TextComponent\"
 
-*Defined in [src/entities/linkedin-feed-text-component.entity.ts:4](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-feed-text-component.entity.ts#L4)*
+*Defined in [src/entities/linkedin-feed-text-component.entity.ts:4](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-feed-text-component.entity.ts#L4)*
 
 ___
 
@@ -31,7 +31,7 @@ ___
 
 •  **numLines**: number
 
-*Defined in [src/entities/linkedin-feed-text-component.entity.ts:5](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-feed-text-component.entity.ts#L5)*
+*Defined in [src/entities/linkedin-feed-text-component.entity.ts:5](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-feed-text-component.entity.ts#L5)*
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 •  **templateType**: string
 
-*Defined in [src/entities/linkedin-feed-text-component.entity.ts:6](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-feed-text-component.entity.ts#L6)*
+*Defined in [src/entities/linkedin-feed-text-component.entity.ts:6](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-feed-text-component.entity.ts#L6)*
 
 ___
 
@@ -47,4 +47,4 @@ ___
 
 •  **text**: [LinkedInTextViewModel](_src_entities_linkedin_text_view_model_entity_.linkedintextviewmodel.md)
 
-*Defined in [src/entities/linkedin-feed-text-component.entity.ts:7](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-feed-text-component.entity.ts#L7)*
+*Defined in [src/entities/linkedin-feed-text-component.entity.ts:7](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-feed-text-component.entity.ts#L7)*

@@ -1,4 +1,4 @@
-**[linkedin-private-api-extended](../README.md)**
+**[linkedin-private-api-expanded](../README.md)**
 
 > [Globals](../globals.md) / ["src/entities/job-search-hit.entity"](../modules/_src_entities_job_search_hit_entity_.md) / PopulatedJobHitInfo
 
@@ -22,4 +22,4 @@
 
 •  **jobPosting**: [PopulatedJobPosting](_src_entities_job_search_hit_entity_.populatedjobposting.md)
 
-*Defined in [src/entities/job-search-hit.entity.ts:15](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/job-search-hit.entity.ts#L15)*
+*Defined in [src/entities/job-search-hit.entity.ts:15](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/job-search-hit.entity.ts#L15)*

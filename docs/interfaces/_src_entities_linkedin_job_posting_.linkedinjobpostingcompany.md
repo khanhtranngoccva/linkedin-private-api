@@ -1,4 +1,4 @@
-**[linkedin-private-api-extended](../README.md)**
+**[linkedin-private-api-expanded](../README.md)**
 
 > [Globals](../globals.md) / ["src/entities/linkedin-job-posting"](../modules/_src_entities_linkedin_job_posting_.md) / LinkedInJobPostingCompany
 
@@ -23,7 +23,7 @@
 
 •  **$recipeTypes**: string[]
 
-*Defined in [src/entities/linkedin-job-posting.ts:5](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-job-posting.ts#L5)*
+*Defined in [src/entities/linkedin-job-posting.ts:5](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-job-posting.ts#L5)*
 
 ___
 
@@ -31,7 +31,7 @@ ___
 
 •  **$type**: \"com.linkedin.voyager.jobs.JobPostingCompany\"
 
-*Defined in [src/entities/linkedin-job-posting.ts:6](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-job-posting.ts#L6)*
+*Defined in [src/entities/linkedin-job-posting.ts:6](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-job-posting.ts#L6)*
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 •  ***companyResolutionResult**: string
 
-*Defined in [src/entities/linkedin-job-posting.ts:4](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-job-posting.ts#L4)*
+*Defined in [src/entities/linkedin-job-posting.ts:4](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-job-posting.ts#L4)*
 
 ___
 
@@ -47,4 +47,4 @@ ___
 
 •  **company**: string
 
-*Defined in [src/entities/linkedin-job-posting.ts:7](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-job-posting.ts#L7)*
+*Defined in [src/entities/linkedin-job-posting.ts:7](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-job-posting.ts#L7)*

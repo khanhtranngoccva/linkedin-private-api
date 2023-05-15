@@ -1,4 +1,4 @@
-**[linkedin-private-api-extended](../README.md)**
+**[linkedin-private-api-expanded](../README.md)**
 
 > [Globals](../globals.md) / ["src/entities/linkedin-feed-video-component.entity"](../modules/_src_entities_linkedin_feed_video_component_entity_.md) / LinkedInFeedVideoComponent
 
@@ -24,7 +24,7 @@
 
 •  **$type**: *typeof* [LINKEDIN\_FEED\_VIDEO\_COMPONENT\_TYPE](../modules/_src_entities_linkedin_feed_video_component_entity_.md#linkedin_feed_video_component_type)
 
-*Defined in [src/entities/linkedin-feed-video-component.entity.ts:4](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-feed-video-component.entity.ts#L4)*
+*Defined in [src/entities/linkedin-feed-video-component.entity.ts:4](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-feed-video-component.entity.ts#L4)*
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 •  ***videoPlayMetadata**: string
 
-*Defined in [src/entities/linkedin-feed-video-component.entity.ts:5](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-feed-video-component.entity.ts#L5)*
+*Defined in [src/entities/linkedin-feed-video-component.entity.ts:5](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-feed-video-component.entity.ts#L5)*
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 •  **headlineBackgroundColor**: string
 
-*Defined in [src/entities/linkedin-feed-video-component.entity.ts:6](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-feed-video-component.entity.ts#L6)*
+*Defined in [src/entities/linkedin-feed-video-component.entity.ts:6](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-feed-video-component.entity.ts#L6)*
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 •  **mediaDisplayVariant**: string
 
-*Defined in [src/entities/linkedin-feed-video-component.entity.ts:7](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-feed-video-component.entity.ts#L7)*
+*Defined in [src/entities/linkedin-feed-video-component.entity.ts:7](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-feed-video-component.entity.ts#L7)*
 
 ___
 
@@ -56,4 +56,4 @@ ___
 
 •  **tapTargets**: unknown[]
 
-*Defined in [src/entities/linkedin-feed-video-component.entity.ts:8](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-feed-video-component.entity.ts#L8)*
+*Defined in [src/entities/linkedin-feed-video-component.entity.ts:8](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-feed-video-component.entity.ts#L8)*

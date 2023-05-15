@@ -1,4 +1,4 @@
-**[linkedin-private-api-extended](../README.md)**
+**[linkedin-private-api-expanded](../README.md)**
 
 > [Globals](../globals.md) / "src/entities/linkedin-video-progressive-download-metadata.entity"
 
@@ -20,4 +20,4 @@
 
 • `Const` **VIDEO\_PROGRESSIVE\_DOWNLOAD\_METADATA\_TYPE**: \"com.linkedin.videocontent.ProgressiveDownloadMetadata\" = "com.linkedin.videocontent.ProgressiveDownloadMetadata"
 
-*Defined in [src/entities/linkedin-video-progressive-download-metadata.entity.ts:3](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-video-progressive-download-metadata.entity.ts#L3)*
+*Defined in [src/entities/linkedin-video-progressive-download-metadata.entity.ts:3](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-video-progressive-download-metadata.entity.ts#L3)*
