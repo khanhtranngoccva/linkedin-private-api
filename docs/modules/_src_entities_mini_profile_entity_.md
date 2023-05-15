@@ -20,4 +20,4 @@
 
 Ƭ  **ProfileId**: string
 
-*Defined in [src/entities/mini-profile.entity.ts:3](https://github.com/khanhtranngoccva/linkedin-private-api/blob/17c022a/src/entities/mini-profile.entity.ts#L3)*
+*Defined in [src/entities/mini-profile.entity.ts:3](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a93f067/src/entities/mini-profile.entity.ts#L3)*

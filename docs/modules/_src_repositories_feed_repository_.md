@@ -24,7 +24,7 @@
 
 ▸ **categorizeFeedFromResponse**(`data`: FeedResponse): [CategorizedFeedResponse](../interfaces/_src_repositories_feed_repository_.categorizedfeedresponse.md)
 
-*Defined in [src/repositories/feed.repository.ts:36](https://github.com/khanhtranngoccva/linkedin-private-api/blob/17c022a/src/repositories/feed.repository.ts#L36)*
+*Defined in [src/repositories/feed.repository.ts:36](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a93f067/src/repositories/feed.repository.ts#L36)*
 
 #### Parameters:
 

@@ -50,7 +50,7 @@ Name |
 
 \+ **new SkipLimitScroller**(`__namedParameters`: { limit: number ; skip: number  }): [SkipLimitScroller](_src_scrollers_skip_limit_scroller_.skiplimitscroller.md)
 
-*Defined in [src/scrollers/skip-limit-scroller.ts:10](https://github.com/khanhtranngoccva/linkedin-private-api/blob/17c022a/src/scrollers/skip-limit-scroller.ts#L10)*
+*Defined in [src/scrollers/skip-limit-scroller.ts:10](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a93f067/src/scrollers/skip-limit-scroller.ts#L10)*
 
 #### Parameters:
 
@@ -66,7 +66,7 @@ Name | Type |
 
 •  **hitEndOfResults**: boolean = false
 
-*Defined in [src/scrollers/skip-limit-scroller.ts:10](https://github.com/khanhtranngoccva/linkedin-private-api/blob/17c022a/src/scrollers/skip-limit-scroller.ts#L10)*
+*Defined in [src/scrollers/skip-limit-scroller.ts:10](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a93f067/src/scrollers/skip-limit-scroller.ts#L10)*
 
 ___
 
@@ -74,7 +74,7 @@ ___
 
 •  **limit**: number
 
-*Defined in [src/scrollers/skip-limit-scroller.ts:4](https://github.com/khanhtranngoccva/linkedin-private-api/blob/17c022a/src/scrollers/skip-limit-scroller.ts#L4)*
+*Defined in [src/scrollers/skip-limit-scroller.ts:4](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a93f067/src/scrollers/skip-limit-scroller.ts#L4)*
 
 ___
 
@@ -82,7 +82,7 @@ ___
 
 •  **scrollNextCounter**: number = 0
 
-*Defined in [src/scrollers/skip-limit-scroller.ts:8](https://github.com/khanhtranngoccva/linkedin-private-api/blob/17c022a/src/scrollers/skip-limit-scroller.ts#L8)*
+*Defined in [src/scrollers/skip-limit-scroller.ts:8](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a93f067/src/scrollers/skip-limit-scroller.ts#L8)*
 
 ___
 
@@ -90,7 +90,7 @@ ___
 
 •  **skip**: number
 
-*Defined in [src/scrollers/skip-limit-scroller.ts:6](https://github.com/khanhtranngoccva/linkedin-private-api/blob/17c022a/src/scrollers/skip-limit-scroller.ts#L6)*
+*Defined in [src/scrollers/skip-limit-scroller.ts:6](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a93f067/src/scrollers/skip-limit-scroller.ts#L6)*
 
 ## Methods
 
@@ -98,7 +98,7 @@ ___
 
 ▸ `Abstract`**fetch**(): Promise<T[]\>
 
-*Defined in [src/scrollers/skip-limit-scroller.ts:17](https://github.com/khanhtranngoccva/linkedin-private-api/blob/17c022a/src/scrollers/skip-limit-scroller.ts#L17)*
+*Defined in [src/scrollers/skip-limit-scroller.ts:17](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a93f067/src/scrollers/skip-limit-scroller.ts#L17)*
 
 **Returns:** Promise<T[]\>
 
@@ -108,7 +108,7 @@ ___
 
 ▸ **restart**(): void
 
-*Defined in [src/scrollers/skip-limit-scroller.ts:55](https://github.com/khanhtranngoccva/linkedin-private-api/blob/17c022a/src/scrollers/skip-limit-scroller.ts#L55)*
+*Defined in [src/scrollers/skip-limit-scroller.ts:55](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a93f067/src/scrollers/skip-limit-scroller.ts#L55)*
 
 **Returns:** void
 
@@ -118,7 +118,7 @@ ___
 
 ▸ **scrollBack**(): Promise<T[]\>
 
-*Defined in [src/scrollers/skip-limit-scroller.ts:36](https://github.com/khanhtranngoccva/linkedin-private-api/blob/17c022a/src/scrollers/skip-limit-scroller.ts#L36)*
+*Defined in [src/scrollers/skip-limit-scroller.ts:36](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a93f067/src/scrollers/skip-limit-scroller.ts#L36)*
 
 **Returns:** Promise<T[]\>
 
@@ -128,6 +128,6 @@ ___
 
 ▸ **scrollNext**(): Promise<T[]\>
 
-*Defined in [src/scrollers/skip-limit-scroller.ts:19](https://github.com/khanhtranngoccva/linkedin-private-api/blob/17c022a/src/scrollers/skip-limit-scroller.ts#L19)*
+*Defined in [src/scrollers/skip-limit-scroller.ts:19](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a93f067/src/scrollers/skip-limit-scroller.ts#L19)*
 
 **Returns:** Promise<T[]\>
