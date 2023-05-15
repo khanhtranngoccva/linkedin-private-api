@@ -81,23 +81,29 @@ export class FeedRepository {
                             }: { skip?: number, limit?: number, type: "chronological" | "relevance" }) {
         const data = await this.client.request.feed.fetchHome({type, limit, skip});
         const categorized = categorizeFeedFromResponse(data);
-        return data.data["*elements"].map(function transform(feedUpdateUrn): FeedPost {
+        const result = data.data["*elements"].map(function transform(feedUpdateUrn) {
             const curPost = categorized.feedUpdates[feedUpdateUrn];
+            const profile = categorized.profiles[curPost.actor.urn];
             const socialDetail = categorized.socialDetails[curPost["*socialDetail"]];
-            const result: FeedPost = {
+            const socialActivityCount = categorized.socialDetailsActivityCounts[socialDetail["*totalSocialActivityCounts"]];
+            const feedPost: FeedPost = {
                 ...curPost,
-                profile: categorized.profiles[curPost.actor.urn],
+                profile: profile,
                 socialDetail: socialDetail,
-                socialActivityCount: categorized.socialDetailsActivityCounts[socialDetail["*totalSocialActivityCounts"]]
+                socialActivityCount: socialActivityCount,
+            }
+            if (!profile || !socialDetail || !socialActivityCount) {
+                return null;
             }
             if (curPost.content?.$type === LINKEDIN_FEED_VIDEO_COMPONENT_TYPE) {
-                result.videoAttachment = categorized.videos[curPost.content["*videoPlayMetadata"]];
+                feedPost.videoAttachment = categorized.videos[curPost.content["*videoPlayMetadata"]];
             } else if (curPost.content?.$type === LINKEDIN_FEED_IMAGE_COMPONENT_TYPE) {
-                result.imageAttachments = curPost.content.images
+                feedPost.imageAttachments = curPost.content.images
                     .map(image => image.attributes[0].vectorImage)
                     .filter(item => item) as LinkedInVectorImage[];
             }
-            return result;
-        })
+            return feedPost;
+        });
+        return result.map(item => item) as FeedPost[]
     }
 }
