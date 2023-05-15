@@ -25,7 +25,7 @@
 
 •  **$type**: \"com.linkedin.voyager.common.ImageAttribute\"
 
-*Defined in [src/entities/linkedin-image-attribute.entity.ts:4](https://github.com/khanhtranngoccva/linkedin-private-api/blob/86b0130/src/entities/linkedin-image-attribute.entity.ts#L4)*
+*Defined in [src/entities/linkedin-image-attribute.entity.ts:4](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/entities/linkedin-image-attribute.entity.ts#L4)*
 
 ___
 
@@ -33,7 +33,7 @@ ___
 
 • `Optional` ***miniCompany**: undefined \| string
 
-*Defined in [src/entities/linkedin-image-attribute.entity.ts:6](https://github.com/khanhtranngoccva/linkedin-private-api/blob/86b0130/src/entities/linkedin-image-attribute.entity.ts#L6)*
+*Defined in [src/entities/linkedin-image-attribute.entity.ts:6](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/entities/linkedin-image-attribute.entity.ts#L6)*
 
 ___
 
@@ -41,7 +41,7 @@ ___
 
 • `Optional` ***miniProfile**: undefined \| string
 
-*Defined in [src/entities/linkedin-image-attribute.entity.ts:5](https://github.com/khanhtranngoccva/linkedin-private-api/blob/86b0130/src/entities/linkedin-image-attribute.entity.ts#L5)*
+*Defined in [src/entities/linkedin-image-attribute.entity.ts:5](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/entities/linkedin-image-attribute.entity.ts#L5)*
 
 ___
 
@@ -49,7 +49,7 @@ ___
 
 • `Optional` **mediaUrn**: undefined \| string
 
-*Defined in [src/entities/linkedin-image-attribute.entity.ts:7](https://github.com/khanhtranngoccva/linkedin-private-api/blob/86b0130/src/entities/linkedin-image-attribute.entity.ts#L7)*
+*Defined in [src/entities/linkedin-image-attribute.entity.ts:7](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/entities/linkedin-image-attribute.entity.ts#L7)*
 
 ___
 
@@ -57,7 +57,7 @@ ___
 
 •  **sourceType**: string
 
-*Defined in [src/entities/linkedin-image-attribute.entity.ts:8](https://github.com/khanhtranngoccva/linkedin-private-api/blob/86b0130/src/entities/linkedin-image-attribute.entity.ts#L8)*
+*Defined in [src/entities/linkedin-image-attribute.entity.ts:8](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/entities/linkedin-image-attribute.entity.ts#L8)*
 
 ___
 
@@ -65,4 +65,4 @@ ___
 
 • `Optional` **vectorImage**: [LinkedInVectorImage](_src_entities_linkedin_vector_image_entity_.linkedinvectorimage.md)
 
-*Defined in [src/entities/linkedin-image-attribute.entity.ts:9](https://github.com/khanhtranngoccva/linkedin-private-api/blob/86b0130/src/entities/linkedin-image-attribute.entity.ts#L9)*
+*Defined in [src/entities/linkedin-image-attribute.entity.ts:9](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/entities/linkedin-image-attribute.entity.ts#L9)*

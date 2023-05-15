@@ -21,7 +21,7 @@
 
 •  **$type**: *typeof* [LINKEDIN\_FEED\_IMAGE\_COMPONENT\_TYPE](../modules/_src_entities_linkedin_feed_image_component_entity_.md#linkedin_feed_image_component_type)
 
-*Defined in [src/entities/linkedin-feed-image-component.entity.ts:6](https://github.com/khanhtranngoccva/linkedin-private-api/blob/86b0130/src/entities/linkedin-feed-image-component.entity.ts#L6)*
+*Defined in [src/entities/linkedin-feed-image-component.entity.ts:6](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/entities/linkedin-feed-image-component.entity.ts#L6)*
 
 ___
 
@@ -29,4 +29,4 @@ ___
 
 •  **images**: [LinkedInImageViewModel](_src_entities_linkedin_image_view_model_entity_.linkedinimageviewmodel.md)[]
 
-*Defined in [src/entities/linkedin-feed-image-component.entity.ts:7](https://github.com/khanhtranngoccva/linkedin-private-api/blob/86b0130/src/entities/linkedin-feed-image-component.entity.ts#L7)*
+*Defined in [src/entities/linkedin-feed-image-component.entity.ts:7](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/entities/linkedin-feed-image-component.entity.ts#L7)*

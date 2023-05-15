@@ -41,7 +41,7 @@
 
 *Inherited from [Request](_src_core_request_.request.md).[constructor](_src_core_request_.request.md#constructor)*
 
-*Defined in [src/core/request.ts:17](https://github.com/khanhtranngoccva/linkedin-private-api/blob/86b0130/src/core/request.ts#L17)*
+*Defined in [src/core/request.ts:17](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/core/request.ts#L17)*
 
 #### Parameters:
 
@@ -57,7 +57,7 @@ Name | Type | Default value |
 
 •  **auth**: AuthRequest = new AuthRequest({ request: this })
 
-*Defined in [src/core/linkedin-request.ts:21](https://github.com/khanhtranngoccva/linkedin-private-api/blob/86b0130/src/core/linkedin-request.ts#L21)*
+*Defined in [src/core/linkedin-request.ts:21](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/core/linkedin-request.ts#L21)*
 
 ___
 
@@ -65,7 +65,7 @@ ___
 
 •  **conversation**: ConversationRequest = new ConversationRequest({ request: this })
 
-*Defined in [src/core/linkedin-request.ts:11](https://github.com/khanhtranngoccva/linkedin-private-api/blob/86b0130/src/core/linkedin-request.ts#L11)*
+*Defined in [src/core/linkedin-request.ts:11](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/core/linkedin-request.ts#L11)*
 
 ___
 
@@ -73,7 +73,7 @@ ___
 
 •  **feed**: FeedRequest = new FeedRequest({ request: this })
 
-*Defined in [src/core/linkedin-request.ts:23](https://github.com/khanhtranngoccva/linkedin-private-api/blob/86b0130/src/core/linkedin-request.ts#L23)*
+*Defined in [src/core/linkedin-request.ts:23](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/core/linkedin-request.ts#L23)*
 
 ___
 
@@ -81,7 +81,7 @@ ___
 
 •  **invitation**: InvitationRequest = new InvitationRequest({ request: this })
 
-*Defined in [src/core/linkedin-request.ts:13](https://github.com/khanhtranngoccva/linkedin-private-api/blob/86b0130/src/core/linkedin-request.ts#L13)*
+*Defined in [src/core/linkedin-request.ts:13](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/core/linkedin-request.ts#L13)*
 
 ___
 
@@ -89,7 +89,7 @@ ___
 
 •  **message**: MessageRequest = new MessageRequest({ request: this })
 
-*Defined in [src/core/linkedin-request.ts:15](https://github.com/khanhtranngoccva/linkedin-private-api/blob/86b0130/src/core/linkedin-request.ts#L15)*
+*Defined in [src/core/linkedin-request.ts:15](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/core/linkedin-request.ts#L15)*
 
 ___
 
@@ -97,7 +97,7 @@ ___
 
 •  **profile**: ProfileRequest = new ProfileRequest({ request: this })
 
-*Defined in [src/core/linkedin-request.ts:17](https://github.com/khanhtranngoccva/linkedin-private-api/blob/86b0130/src/core/linkedin-request.ts#L17)*
+*Defined in [src/core/linkedin-request.ts:17](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/core/linkedin-request.ts#L17)*
 
 ___
 
@@ -107,7 +107,7 @@ ___
 
 *Inherited from [Request](_src_core_request_.request.md).[request](_src_core_request_.request.md#request)*
 
-*Defined in [src/core/request.ts:17](https://github.com/khanhtranngoccva/linkedin-private-api/blob/86b0130/src/core/request.ts#L17)*
+*Defined in [src/core/request.ts:17](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/core/request.ts#L17)*
 
 ___
 
@@ -115,7 +115,7 @@ ___
 
 •  **search**: SearchRequest = new SearchRequest({ request: this })
 
-*Defined in [src/core/linkedin-request.ts:19](https://github.com/khanhtranngoccva/linkedin-private-api/blob/86b0130/src/core/linkedin-request.ts#L19)*
+*Defined in [src/core/linkedin-request.ts:19](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/core/linkedin-request.ts#L19)*
 
 ## Methods
 
@@ -125,7 +125,7 @@ ___
 
 *Inherited from [Request](_src_core_request_.request.md).[get](_src_core_request_.request.md#get)*
 
-*Defined in [src/core/request.ts:31](https://github.com/khanhtranngoccva/linkedin-private-api/blob/86b0130/src/core/request.ts#L31)*
+*Defined in [src/core/request.ts:31](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/core/request.ts#L31)*
 
 #### Type parameters:
 
@@ -146,7 +146,7 @@ Name | Type |
 
 *Inherited from [Request](_src_core_request_.request.md).[get](_src_core_request_.request.md#get)*
 
-*Defined in [src/core/request.ts:32](https://github.com/khanhtranngoccva/linkedin-private-api/blob/86b0130/src/core/request.ts#L32)*
+*Defined in [src/core/request.ts:32](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/core/request.ts#L32)*
 
 #### Type parameters:
 
@@ -171,7 +171,7 @@ ___
 
 *Inherited from [Request](_src_core_request_.request.md).[post](_src_core_request_.request.md#post)*
 
-*Defined in [src/core/request.ts:39](https://github.com/khanhtranngoccva/linkedin-private-api/blob/86b0130/src/core/request.ts#L39)*
+*Defined in [src/core/request.ts:39](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/core/request.ts#L39)*
 
 #### Type parameters:
 
@@ -193,7 +193,7 @@ Name | Type |
 
 *Inherited from [Request](_src_core_request_.request.md).[post](_src_core_request_.request.md#post)*
 
-*Defined in [src/core/request.ts:40](https://github.com/khanhtranngoccva/linkedin-private-api/blob/86b0130/src/core/request.ts#L40)*
+*Defined in [src/core/request.ts:40](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/core/request.ts#L40)*
 
 #### Type parameters:
 
@@ -219,7 +219,7 @@ ___
 
 *Inherited from [Request](_src_core_request_.request.md).[setHeaders](_src_core_request_.request.md#setheaders)*
 
-*Defined in [src/core/request.ts:27](https://github.com/khanhtranngoccva/linkedin-private-api/blob/86b0130/src/core/request.ts#L27)*
+*Defined in [src/core/request.ts:27](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/core/request.ts#L27)*
 
 #### Parameters:
 

@@ -32,7 +32,7 @@
 
 •  **$type**: \"com.linkedin.voyager.feed.shared.SocialActivityCounts\"
 
-*Defined in [src/entities/linkedin-feed-social-activity-counts.entity.ts:4](https://github.com/khanhtranngoccva/linkedin-private-api/blob/86b0130/src/entities/linkedin-feed-social-activity-counts.entity.ts#L4)*
+*Defined in [src/entities/linkedin-feed-social-activity-counts.entity.ts:4](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/entities/linkedin-feed-social-activity-counts.entity.ts#L4)*
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 •  **dashEntityUrn**: string
 
-*Defined in [src/entities/linkedin-feed-social-activity-counts.entity.ts:5](https://github.com/khanhtranngoccva/linkedin-private-api/blob/86b0130/src/entities/linkedin-feed-social-activity-counts.entity.ts#L5)*
+*Defined in [src/entities/linkedin-feed-social-activity-counts.entity.ts:5](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/entities/linkedin-feed-social-activity-counts.entity.ts#L5)*
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 •  **entityUrn**: string
 
-*Defined in [src/entities/linkedin-feed-social-activity-counts.entity.ts:6](https://github.com/khanhtranngoccva/linkedin-private-api/blob/86b0130/src/entities/linkedin-feed-social-activity-counts.entity.ts#L6)*
+*Defined in [src/entities/linkedin-feed-social-activity-counts.entity.ts:6](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/entities/linkedin-feed-social-activity-counts.entity.ts#L6)*
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 •  **liked**: boolean
 
-*Defined in [src/entities/linkedin-feed-social-activity-counts.entity.ts:7](https://github.com/khanhtranngoccva/linkedin-private-api/blob/86b0130/src/entities/linkedin-feed-social-activity-counts.entity.ts#L7)*
+*Defined in [src/entities/linkedin-feed-social-activity-counts.entity.ts:7](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/entities/linkedin-feed-social-activity-counts.entity.ts#L7)*
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 •  **likedByOrganizationActor**: boolean \| null
 
-*Defined in [src/entities/linkedin-feed-social-activity-counts.entity.ts:8](https://github.com/khanhtranngoccva/linkedin-private-api/blob/86b0130/src/entities/linkedin-feed-social-activity-counts.entity.ts#L8)*
+*Defined in [src/entities/linkedin-feed-social-activity-counts.entity.ts:8](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/entities/linkedin-feed-social-activity-counts.entity.ts#L8)*
 
 ___
 
@@ -72,7 +72,7 @@ ___
 
 •  **numComments**: number
 
-*Defined in [src/entities/linkedin-feed-social-activity-counts.entity.ts:9](https://github.com/khanhtranngoccva/linkedin-private-api/blob/86b0130/src/entities/linkedin-feed-social-activity-counts.entity.ts#L9)*
+*Defined in [src/entities/linkedin-feed-social-activity-counts.entity.ts:9](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/entities/linkedin-feed-social-activity-counts.entity.ts#L9)*
 
 ___
 
@@ -80,7 +80,7 @@ ___
 
 •  **numImpressions**: number \| null
 
-*Defined in [src/entities/linkedin-feed-social-activity-counts.entity.ts:10](https://github.com/khanhtranngoccva/linkedin-private-api/blob/86b0130/src/entities/linkedin-feed-social-activity-counts.entity.ts#L10)*
+*Defined in [src/entities/linkedin-feed-social-activity-counts.entity.ts:10](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/entities/linkedin-feed-social-activity-counts.entity.ts#L10)*
 
 ___
 
@@ -88,7 +88,7 @@ ___
 
 •  **numLikes**: number
 
-*Defined in [src/entities/linkedin-feed-social-activity-counts.entity.ts:11](https://github.com/khanhtranngoccva/linkedin-private-api/blob/86b0130/src/entities/linkedin-feed-social-activity-counts.entity.ts#L11)*
+*Defined in [src/entities/linkedin-feed-social-activity-counts.entity.ts:11](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/entities/linkedin-feed-social-activity-counts.entity.ts#L11)*
 
 ___
 
@@ -96,7 +96,7 @@ ___
 
 •  **numShares**: number
 
-*Defined in [src/entities/linkedin-feed-social-activity-counts.entity.ts:12](https://github.com/khanhtranngoccva/linkedin-private-api/blob/86b0130/src/entities/linkedin-feed-social-activity-counts.entity.ts#L12)*
+*Defined in [src/entities/linkedin-feed-social-activity-counts.entity.ts:12](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/entities/linkedin-feed-social-activity-counts.entity.ts#L12)*
 
 ___
 
@@ -104,7 +104,7 @@ ___
 
 •  **numViews**: null \| number
 
-*Defined in [src/entities/linkedin-feed-social-activity-counts.entity.ts:13](https://github.com/khanhtranngoccva/linkedin-private-api/blob/86b0130/src/entities/linkedin-feed-social-activity-counts.entity.ts#L13)*
+*Defined in [src/entities/linkedin-feed-social-activity-counts.entity.ts:13](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/entities/linkedin-feed-social-activity-counts.entity.ts#L13)*
 
 ___
 
@@ -112,7 +112,7 @@ ___
 
 •  **reacted**: boolean \| number
 
-*Defined in [src/entities/linkedin-feed-social-activity-counts.entity.ts:14](https://github.com/khanhtranngoccva/linkedin-private-api/blob/86b0130/src/entities/linkedin-feed-social-activity-counts.entity.ts#L14)*
+*Defined in [src/entities/linkedin-feed-social-activity-counts.entity.ts:14](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/entities/linkedin-feed-social-activity-counts.entity.ts#L14)*
 
 ___
 
@@ -120,7 +120,7 @@ ___
 
 •  **reactionByOrganizationActor**: unknown
 
-*Defined in [src/entities/linkedin-feed-social-activity-counts.entity.ts:15](https://github.com/khanhtranngoccva/linkedin-private-api/blob/86b0130/src/entities/linkedin-feed-social-activity-counts.entity.ts#L15)*
+*Defined in [src/entities/linkedin-feed-social-activity-counts.entity.ts:15](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/entities/linkedin-feed-social-activity-counts.entity.ts#L15)*
 
 ___
 
@@ -128,4 +128,4 @@ ___
 
 •  **reactionText**: [LinkedInTextViewModel](_src_entities_linkedin_text_view_model_entity_.linkedintextviewmodel.md) \| null
 
-*Defined in [src/entities/linkedin-feed-social-activity-counts.entity.ts:16](https://github.com/khanhtranngoccva/linkedin-private-api/blob/86b0130/src/entities/linkedin-feed-social-activity-counts.entity.ts#L16)*
+*Defined in [src/entities/linkedin-feed-social-activity-counts.entity.ts:16](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/entities/linkedin-feed-social-activity-counts.entity.ts#L16)*

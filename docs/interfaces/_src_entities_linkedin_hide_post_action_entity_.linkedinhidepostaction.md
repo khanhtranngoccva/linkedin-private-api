@@ -25,7 +25,7 @@
 
 •  **$type**: \"com.linkedin.voyager.feed.actions.HidePostAction\"
 
-*Defined in [src/entities/linkedin-hide-post-action.entity.ts:2](https://github.com/khanhtranngoccva/linkedin-private-api/blob/86b0130/src/entities/linkedin-hide-post-action.entity.ts#L2)*
+*Defined in [src/entities/linkedin-hide-post-action.entity.ts:2](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/entities/linkedin-hide-post-action.entity.ts#L2)*
 
 ___
 
@@ -33,7 +33,7 @@ ___
 
 •  **actionType**: string
 
-*Defined in [src/entities/linkedin-hide-post-action.entity.ts:3](https://github.com/khanhtranngoccva/linkedin-private-api/blob/86b0130/src/entities/linkedin-hide-post-action.entity.ts#L3)*
+*Defined in [src/entities/linkedin-hide-post-action.entity.ts:3](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/entities/linkedin-hide-post-action.entity.ts#L3)*
 
 ___
 
@@ -41,7 +41,7 @@ ___
 
 •  **confirmationComponent**: unknown
 
-*Defined in [src/entities/linkedin-hide-post-action.entity.ts:4](https://github.com/khanhtranngoccva/linkedin-private-api/blob/86b0130/src/entities/linkedin-hide-post-action.entity.ts#L4)*
+*Defined in [src/entities/linkedin-hide-post-action.entity.ts:4](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/entities/linkedin-hide-post-action.entity.ts#L4)*
 
 ___
 
@@ -49,7 +49,7 @@ ___
 
 •  **dashEntityUrn**: string
 
-*Defined in [src/entities/linkedin-hide-post-action.entity.ts:5](https://github.com/khanhtranngoccva/linkedin-private-api/blob/86b0130/src/entities/linkedin-hide-post-action.entity.ts#L5)*
+*Defined in [src/entities/linkedin-hide-post-action.entity.ts:5](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/entities/linkedin-hide-post-action.entity.ts#L5)*
 
 ___
 
@@ -57,7 +57,7 @@ ___
 
 •  **entityUrn**: string
 
-*Defined in [src/entities/linkedin-hide-post-action.entity.ts:6](https://github.com/khanhtranngoccva/linkedin-private-api/blob/86b0130/src/entities/linkedin-hide-post-action.entity.ts#L6)*
+*Defined in [src/entities/linkedin-hide-post-action.entity.ts:6](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/entities/linkedin-hide-post-action.entity.ts#L6)*
 
 ___
 
@@ -65,4 +65,4 @@ ___
 
 •  **type**: string
 
-*Defined in [src/entities/linkedin-hide-post-action.entity.ts:7](https://github.com/khanhtranngoccva/linkedin-private-api/blob/86b0130/src/entities/linkedin-hide-post-action.entity.ts#L7)*
+*Defined in [src/entities/linkedin-hide-post-action.entity.ts:7](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/entities/linkedin-hide-post-action.entity.ts#L7)*

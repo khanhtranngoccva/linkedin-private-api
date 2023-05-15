@@ -24,7 +24,7 @@
 
 \+ **new FeedRepository**(`__namedParameters`: { client: [Client](_src_core_client_.client.md)  }): [FeedRepository](_src_repositories_feed_repository_.feedrepository.md)
 
-*Defined in [src/repositories/feed.repository.ts:45](https://github.com/khanhtranngoccva/linkedin-private-api/blob/86b0130/src/repositories/feed.repository.ts#L45)*
+*Defined in [src/repositories/feed.repository.ts:45](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/repositories/feed.repository.ts#L45)*
 
 #### Parameters:
 
@@ -40,7 +40,7 @@ Name | Type |
 
 ▸ **getHome**(`__namedParameters`: { limit: number = 10; skip: number = 0; type: \"chronological\" \| \"relevance\" = "relevance" }): [HomeFeedScroller](_src_scrollers_home_feed_scroller_.homefeedscroller.md)
 
-*Defined in [src/repositories/feed.repository.ts:51](https://github.com/khanhtranngoccva/linkedin-private-api/blob/86b0130/src/repositories/feed.repository.ts#L51)*
+*Defined in [src/repositories/feed.repository.ts:51](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/repositories/feed.repository.ts#L51)*
 
 #### Parameters:
 

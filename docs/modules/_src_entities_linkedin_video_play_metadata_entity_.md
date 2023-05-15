@@ -24,7 +24,7 @@
 
 Ƭ  **LinkedInVideoUrn**: string
 
-*Defined in [src/entities/linkedin-video-play-metadata.entity.ts:5](https://github.com/khanhtranngoccva/linkedin-private-api/blob/86b0130/src/entities/linkedin-video-play-metadata.entity.ts#L5)*
+*Defined in [src/entities/linkedin-video-play-metadata.entity.ts:5](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/entities/linkedin-video-play-metadata.entity.ts#L5)*
 
 ## Variables
 
@@ -32,4 +32,4 @@
 
 • `Const` **LINKEDIN\_VIDEO\_PLAY\_METADATA\_TYPE**: \"com.linkedin.videocontent.VideoPlayMetadata\" = "com.linkedin.videocontent.VideoPlayMetadata"
 
-*Defined in [src/entities/linkedin-video-play-metadata.entity.ts:4](https://github.com/khanhtranngoccva/linkedin-private-api/blob/86b0130/src/entities/linkedin-video-play-metadata.entity.ts#L4)*
+*Defined in [src/entities/linkedin-video-play-metadata.entity.ts:4](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/entities/linkedin-video-play-metadata.entity.ts#L4)*
