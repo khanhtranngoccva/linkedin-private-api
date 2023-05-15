@@ -28,7 +28,7 @@
 
 •  **$type**: \"com.linkedin.voyager.feed.render.ActorComponent\"
 
-*Defined in [src/entities/linkedin-feed-actor.entity.ts:16](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-feed-actor.entity.ts#L16)*
+*Defined in [src/entities/linkedin-feed-actor.entity.ts:16](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a63729e/src/entities/linkedin-feed-actor.entity.ts#L16)*
 
 ___
 
@@ -36,7 +36,7 @@ ___
 
 •  **description**: [LinkedInTextViewModel](_src_entities_linkedin_text_view_model_entity_.linkedintextviewmodel.md)
 
-*Defined in [src/entities/linkedin-feed-actor.entity.ts:17](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-feed-actor.entity.ts#L17)*
+*Defined in [src/entities/linkedin-feed-actor.entity.ts:17](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a63729e/src/entities/linkedin-feed-actor.entity.ts#L17)*
 
 ___
 
@@ -44,7 +44,7 @@ ___
 
 • `Optional` **followAction**: FeedFollowAction
 
-*Defined in [src/entities/linkedin-feed-actor.entity.ts:18](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-feed-actor.entity.ts#L18)*
+*Defined in [src/entities/linkedin-feed-actor.entity.ts:18](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a63729e/src/entities/linkedin-feed-actor.entity.ts#L18)*
 
 ___
 
@@ -52,7 +52,7 @@ ___
 
 •  **image**: [LinkedInImageViewModel](_src_entities_linkedin_image_view_model_entity_.linkedinimageviewmodel.md)
 
-*Defined in [src/entities/linkedin-feed-actor.entity.ts:19](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-feed-actor.entity.ts#L19)*
+*Defined in [src/entities/linkedin-feed-actor.entity.ts:19](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a63729e/src/entities/linkedin-feed-actor.entity.ts#L19)*
 
 ___
 
@@ -60,7 +60,7 @@ ___
 
 •  **name**: [LinkedInTextViewModel](_src_entities_linkedin_text_view_model_entity_.linkedintextviewmodel.md)
 
-*Defined in [src/entities/linkedin-feed-actor.entity.ts:20](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-feed-actor.entity.ts#L20)*
+*Defined in [src/entities/linkedin-feed-actor.entity.ts:20](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a63729e/src/entities/linkedin-feed-actor.entity.ts#L20)*
 
 ___
 
@@ -68,7 +68,7 @@ ___
 
 •  **navigationContext**: [LinkedInFeedNavigationContext](_src_entities_linkedin_feed_navigation_context_entity_.linkedinfeednavigationcontext.md)
 
-*Defined in [src/entities/linkedin-feed-actor.entity.ts:21](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-feed-actor.entity.ts#L21)*
+*Defined in [src/entities/linkedin-feed-actor.entity.ts:21](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a63729e/src/entities/linkedin-feed-actor.entity.ts#L21)*
 
 ___
 
@@ -76,7 +76,7 @@ ___
 
 •  **subDescription**: [LinkedInTextViewModel](_src_entities_linkedin_text_view_model_entity_.linkedintextviewmodel.md)
 
-*Defined in [src/entities/linkedin-feed-actor.entity.ts:22](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-feed-actor.entity.ts#L22)*
+*Defined in [src/entities/linkedin-feed-actor.entity.ts:22](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a63729e/src/entities/linkedin-feed-actor.entity.ts#L22)*
 
 ___
 
@@ -84,7 +84,7 @@ ___
 
 •  **supplementaryActorInfo**: [LinkedInTextViewModel](_src_entities_linkedin_text_view_model_entity_.linkedintextviewmodel.md)
 
-*Defined in [src/entities/linkedin-feed-actor.entity.ts:23](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-feed-actor.entity.ts#L23)*
+*Defined in [src/entities/linkedin-feed-actor.entity.ts:23](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a63729e/src/entities/linkedin-feed-actor.entity.ts#L23)*
 
 ___
 
@@ -92,4 +92,4 @@ ___
 
 •  **urn**: string
 
-*Defined in [src/entities/linkedin-feed-actor.entity.ts:24](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-feed-actor.entity.ts#L24)*
+*Defined in [src/entities/linkedin-feed-actor.entity.ts:24](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a63729e/src/entities/linkedin-feed-actor.entity.ts#L24)*

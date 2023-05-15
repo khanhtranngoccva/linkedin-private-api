@@ -24,7 +24,7 @@
 
 Ƭ  **LinkedInFeedUpdateUrn**: string
 
-*Defined in [src/entities/linkedin-feed-update.entity.ts:6](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-feed-update.entity.ts#L6)*
+*Defined in [src/entities/linkedin-feed-update.entity.ts:6](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a63729e/src/entities/linkedin-feed-update.entity.ts#L6)*
 
 ## Variables
 
@@ -32,4 +32,4 @@
 
 • `Const` **LINKEDIN\_FEED\_UPDATE\_TYPE**: \"com.linkedin.voyager.feed.render.UpdateV2\" = "com.linkedin.voyager.feed.render.UpdateV2"
 
-*Defined in [src/entities/linkedin-feed-update.entity.ts:7](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/linkedin-feed-update.entity.ts#L7)*
+*Defined in [src/entities/linkedin-feed-update.entity.ts:7](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a63729e/src/entities/linkedin-feed-update.entity.ts#L7)*

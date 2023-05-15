@@ -20,4 +20,4 @@
 
 Ƭ  **CompanyId**: string
 
-*Defined in [src/entities/mini-company.entity.ts:3](https://github.com/khanhtranngoccva/linkedin-private-api/blob/355192d/src/entities/mini-company.entity.ts#L3)*
+*Defined in [src/entities/mini-company.entity.ts:3](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a63729e/src/entities/mini-company.entity.ts#L3)*

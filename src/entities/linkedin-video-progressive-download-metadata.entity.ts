@@ -9,5 +9,5 @@ export interface LinkedinVideoProgressiveDownloadMetadata {
     width: number;
     mediaType: string;
     size: number;
-    streamingLocation: LinkedinVideoStreamingLocation[];
+    streamingLocations: LinkedinVideoStreamingLocation[];
 }
