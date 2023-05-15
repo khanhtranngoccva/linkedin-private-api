@@ -1,5 +1,5 @@
 import {LinkedInRequest} from "../core/linkedin-request";
-import {FeedResponse} from "../responses/feed.response";
+import {FeedResponse, FeedUpdateActionsResponse} from "../responses/feed.response";
 
 export class FeedRequest {
     private request: LinkedInRequest;
@@ -27,5 +27,9 @@ export class FeedRequest {
         return this.request.get<FeedResponse>("feed/updatesV2", {
             params: query,
         })
+    }
+
+    async getPostUrl({updateActionsUrn}: { updateActionsUrn: string }) {
+        return this.request.get<FeedUpdateActionsResponse>(`voyagerFeedUpdateActions/${encodeURIComponent(updateActionsUrn)}`)
     }
 }

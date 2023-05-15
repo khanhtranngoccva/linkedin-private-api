@@ -24,7 +24,7 @@
 
 Ƭ  **LinkedInFeedSocialActivityCountsUrn**: string
 
-*Defined in [src/entities/linkedin-feed-social-activity-counts.entity.ts:4](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a93f067/src/entities/linkedin-feed-social-activity-counts.entity.ts#L4)*
+*Defined in [src/entities/linkedin-feed-social-activity-counts.entity.ts:4](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a197b9e/src/entities/linkedin-feed-social-activity-counts.entity.ts#L4)*
 
 ## Variables
 
@@ -32,4 +32,4 @@
 
 • `Const` **LINKEDIN\_FEED\_SOCIAL\_ACTIVITY\_COUNTS\_TYPE**: \"com.linkedin.voyager.feed.shared.SocialActivityCounts\" = "com.linkedin.voyager.feed.shared.SocialActivityCounts"
 
-*Defined in [src/entities/linkedin-feed-social-activity-counts.entity.ts:3](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a93f067/src/entities/linkedin-feed-social-activity-counts.entity.ts#L3)*
+*Defined in [src/entities/linkedin-feed-social-activity-counts.entity.ts:3](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a197b9e/src/entities/linkedin-feed-social-activity-counts.entity.ts#L3)*

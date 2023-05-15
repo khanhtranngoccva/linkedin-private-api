@@ -2,6 +2,7 @@ import {LinkedInFeedActor} from "./linkedin-feed-actor.entity";
 import {LinkedInFeedImageComponent} from "./linkedin-feed-image-component.entity";
 import {LinkedInFeedTextComponent} from "./linkedin-feed-text-component.entity";
 import {LinkedInFeedVideoComponent} from "./linkedin-feed-video-component.entity";
+import {LinkedInFeedUpdateMetadata} from "./linkedin-feed-update-metadata.entity";
 
 export type LinkedInFeedUpdateUrn = string;
 export const LINKEDIN_FEED_UPDATE_TYPE = "com.linkedin.voyager.feed.render.UpdateV2";
@@ -33,5 +34,5 @@ export interface LinkedInFeedUpdate {
     relatedContent: unknown,
     resharedUpdate: unknown,
     showSocialDetail: unknown,
-    updateMetadata: unknown,
+    updateMetadata: LinkedInFeedUpdateMetadata,
 }

@@ -7,7 +7,7 @@ import {LinkedInFollowingInfo} from "../entities/linkedin-following-info.entity"
 import {LinkedInFeedSocialDetail} from "../entities/linkedin-feed-social-detail.entity";
 import {LinkedInHidePostAction} from "../entities/linkedin-hide-post-action.entity";
 import {LinkedInSaveAction} from "../entities/linkedin-save-action.entity";
-import {LinkedInUpdateActions} from "../entities/linkedin-update-actions.entity";
+import {LinkedInFeedUpdateActions} from "../entities/linkedin-feed-update-actions.entity";
 import {LinkedInFeedUpdate, LinkedInFeedUpdateUrn} from "../entities/linkedin-feed-update.entity";
 import {LinkedInVideoPlayMetadata} from "../entities/linkedin-video-play-metadata.entity";
 import {LinkedInFeedSocialActivityCounts} from "../entities/linkedin-feed-social-activity-counts.entity";
@@ -27,9 +27,14 @@ type FeedItem =
     | LinkedInFeedSocialDetail
     | LinkedInHidePostAction
     | LinkedInSaveAction
-    | LinkedInUpdateActions
+    | LinkedInFeedUpdateActions
     | LinkedInFeedUpdate
     | LinkedInMiniProfile
     | LinkedInVideoPlayMetadata
     | LinkedInFeedSocialActivityCounts;
 export type FeedResponse = LinkedInCollectionResponseVariant2<LinkedInFeedUpdateUrn, FeedItem, FeedResponseMetadata>
+
+export interface FeedUpdateActionsResponse {
+    data: LinkedInFeedUpdateActions;
+    included: unknown[];
+}

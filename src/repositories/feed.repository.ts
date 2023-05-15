@@ -6,7 +6,7 @@ import {
     LinkedInFeedUpdate,
     LinkedInFeedUpdateUrn
 } from "../entities/linkedin-feed-update.entity";
-import {FeedResponse} from "../responses/feed.response";
+import {FeedResponse, FeedUpdateActionsResponse} from "../responses/feed.response";
 import {LinkedInMiniProfile, LinkedInVectorImage, MINI_PROFILE_TYPE, MiniProfileUrn} from "../entities";
 import {
     LINKEDIN_VIDEO_PLAY_METADATA_TYPE,
@@ -72,6 +72,16 @@ export class FeedRepository {
         return new HomeFeedScroller({
             skip, limit, type, getHomeFeed: this.fetchHome.bind(this),
         })
+    }
+
+    async getPostUrlFromUpdateActionsUrn({updateActionsUrn}: { updateActionsUrn: string }): Promise<string | null> {
+        const data = await this.client.request.feed.getPostUrl({updateActionsUrn});
+        for (const action of data.data.actions) {
+            if (action.actionType === "SHARE_VIA" && action.url) {
+                return action.url;
+            }
+        }
+        return null;
     }
 
     private async fetchHome({

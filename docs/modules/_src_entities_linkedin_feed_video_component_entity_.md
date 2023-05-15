@@ -20,4 +20,4 @@
 
 • `Const` **LINKEDIN\_FEED\_VIDEO\_COMPONENT\_TYPE**: \"com.linkedin.voyager.feed.render.LinkedInVideoComponent\" = "com.linkedin.voyager.feed.render.LinkedInVideoComponent"
 
-*Defined in [src/entities/linkedin-feed-video-component.entity.ts:1](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a93f067/src/entities/linkedin-feed-video-component.entity.ts#L1)*
+*Defined in [src/entities/linkedin-feed-video-component.entity.ts:1](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a197b9e/src/entities/linkedin-feed-video-component.entity.ts#L1)*
