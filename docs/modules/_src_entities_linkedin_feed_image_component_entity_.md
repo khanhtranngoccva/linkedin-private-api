@@ -20,4 +20,4 @@
 
 • `Const` **LINKEDIN\_FEED\_IMAGE\_COMPONENT\_TYPE**: \"com.linkedin.voyager.feed.render.ImageComponent\" = "com.linkedin.voyager.feed.render.ImageComponent"
 
-*Defined in [src/entities/linkedin-feed-image-component.entity.ts:3](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a63729e/src/entities/linkedin-feed-image-component.entity.ts#L3)*
+*Defined in [src/entities/linkedin-feed-image-component.entity.ts:3](https://github.com/khanhtranngoccva/linkedin-private-api/blob/17c022a/src/entities/linkedin-feed-image-component.entity.ts#L3)*

@@ -24,7 +24,7 @@
 
 •  **$type**: *typeof* [LINKEDIN\_TEXT\_COMPONENT\_TYPE](../modules/_src_entities_linkedin_feed_text_component_.md#linkedin_text_component_type)
 
-*Defined in [src/entities/linkedin-feed-text-component.ts:5](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a63729e/src/entities/linkedin-feed-text-component.ts#L5)*
+*Defined in [src/entities/linkedin-feed-text-component.ts:5](https://github.com/khanhtranngoccva/linkedin-private-api/blob/17c022a/src/entities/linkedin-feed-text-component.ts#L5)*
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 •  **navigationContext**: unknown
 
-*Defined in [src/entities/linkedin-feed-text-component.ts:6](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a63729e/src/entities/linkedin-feed-text-component.ts#L6)*
+*Defined in [src/entities/linkedin-feed-text-component.ts:6](https://github.com/khanhtranngoccva/linkedin-private-api/blob/17c022a/src/entities/linkedin-feed-text-component.ts#L6)*
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 •  **numLines**: number
 
-*Defined in [src/entities/linkedin-feed-text-component.ts:7](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a63729e/src/entities/linkedin-feed-text-component.ts#L7)*
+*Defined in [src/entities/linkedin-feed-text-component.ts:7](https://github.com/khanhtranngoccva/linkedin-private-api/blob/17c022a/src/entities/linkedin-feed-text-component.ts#L7)*
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 •  **templateType**: string
 
-*Defined in [src/entities/linkedin-feed-text-component.ts:8](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a63729e/src/entities/linkedin-feed-text-component.ts#L8)*
+*Defined in [src/entities/linkedin-feed-text-component.ts:8](https://github.com/khanhtranngoccva/linkedin-private-api/blob/17c022a/src/entities/linkedin-feed-text-component.ts#L8)*
 
 ___
 
@@ -56,4 +56,4 @@ ___
 
 •  **text**: [LinkedInTextViewModel](_src_entities_linkedin_text_view_model_entity_.linkedintextviewmodel.md)
 
-*Defined in [src/entities/linkedin-feed-text-component.ts:9](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a63729e/src/entities/linkedin-feed-text-component.ts#L9)*
+*Defined in [src/entities/linkedin-feed-text-component.ts:9](https://github.com/khanhtranngoccva/linkedin-private-api/blob/17c022a/src/entities/linkedin-feed-text-component.ts#L9)*

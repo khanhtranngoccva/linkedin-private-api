@@ -23,7 +23,7 @@
 
 •  **$type**: \"com.linkedin.voyager.common.TextViewModel\"
 
-*Defined in [src/entities/linkedin-text-view-model.entity.ts:2](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a63729e/src/entities/linkedin-text-view-model.entity.ts#L2)*
+*Defined in [src/entities/linkedin-text-view-model.entity.ts:2](https://github.com/khanhtranngoccva/linkedin-private-api/blob/17c022a/src/entities/linkedin-text-view-model.entity.ts#L2)*
 
 ___
 
@@ -31,7 +31,7 @@ ___
 
 • `Optional` **accessibilityText**: undefined \| string
 
-*Defined in [src/entities/linkedin-text-view-model.entity.ts:5](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a63729e/src/entities/linkedin-text-view-model.entity.ts#L5)*
+*Defined in [src/entities/linkedin-text-view-model.entity.ts:5](https://github.com/khanhtranngoccva/linkedin-private-api/blob/17c022a/src/entities/linkedin-text-view-model.entity.ts#L5)*
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 •  **text**: string
 
-*Defined in [src/entities/linkedin-text-view-model.entity.ts:3](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a63729e/src/entities/linkedin-text-view-model.entity.ts#L3)*
+*Defined in [src/entities/linkedin-text-view-model.entity.ts:3](https://github.com/khanhtranngoccva/linkedin-private-api/blob/17c022a/src/entities/linkedin-text-view-model.entity.ts#L3)*
 
 ___
 
@@ -47,4 +47,4 @@ ___
 
 •  **textDirection**: string
 
-*Defined in [src/entities/linkedin-text-view-model.entity.ts:4](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a63729e/src/entities/linkedin-text-view-model.entity.ts#L4)*
+*Defined in [src/entities/linkedin-text-view-model.entity.ts:4](https://github.com/khanhtranngoccva/linkedin-private-api/blob/17c022a/src/entities/linkedin-text-view-model.entity.ts#L4)*

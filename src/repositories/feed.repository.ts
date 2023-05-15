@@ -86,14 +86,14 @@ export class FeedRepository {
             const profile = categorized.profiles[curPost.actor.urn];
             const socialDetail = categorized.socialDetails[curPost["*socialDetail"]];
             const socialActivityCount = categorized.socialDetailsActivityCounts[socialDetail["*totalSocialActivityCounts"]];
+            if (!profile || !socialDetail || !socialActivityCount) {
+                return null;
+            }
             const feedPost: FeedPost = {
                 ...curPost,
                 profile: profile,
                 socialDetail: socialDetail,
                 socialActivityCount: socialActivityCount,
-            }
-            if (!profile || !socialDetail || !socialActivityCount) {
-                return null;
             }
             if (curPost.content?.$type === LINKEDIN_FEED_VIDEO_COMPONENT_TYPE) {
                 feedPost.videoAttachment = categorized.videos[curPost.content["*videoPlayMetadata"]];
@@ -104,6 +104,6 @@ export class FeedRepository {
             }
             return feedPost;
         });
-        return result.map(item => item) as FeedPost[]
+        return result.filter(item => item) as FeedPost[]
     }
 }

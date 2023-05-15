@@ -23,7 +23,7 @@
 
 •  **$type**: \"com.linkedin.voyager.feed.render.FeedNavigationContext\"
 
-*Defined in [src/entities/linkedin-feed-navigation-context.entity.ts:2](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a63729e/src/entities/linkedin-feed-navigation-context.entity.ts#L2)*
+*Defined in [src/entities/linkedin-feed-navigation-context.entity.ts:2](https://github.com/khanhtranngoccva/linkedin-private-api/blob/17c022a/src/entities/linkedin-feed-navigation-context.entity.ts#L2)*
 
 ___
 
@@ -31,7 +31,7 @@ ___
 
 •  **accessibilityText**: string
 
-*Defined in [src/entities/linkedin-feed-navigation-context.entity.ts:3](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a63729e/src/entities/linkedin-feed-navigation-context.entity.ts#L3)*
+*Defined in [src/entities/linkedin-feed-navigation-context.entity.ts:3](https://github.com/khanhtranngoccva/linkedin-private-api/blob/17c022a/src/entities/linkedin-feed-navigation-context.entity.ts#L3)*
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 •  **actionTarget**: string
 
-*Defined in [src/entities/linkedin-feed-navigation-context.entity.ts:4](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a63729e/src/entities/linkedin-feed-navigation-context.entity.ts#L4)*
+*Defined in [src/entities/linkedin-feed-navigation-context.entity.ts:4](https://github.com/khanhtranngoccva/linkedin-private-api/blob/17c022a/src/entities/linkedin-feed-navigation-context.entity.ts#L4)*
 
 ___
 
@@ -47,4 +47,4 @@ ___
 
 •  **trackingActionType**: string
 
-*Defined in [src/entities/linkedin-feed-navigation-context.entity.ts:5](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a63729e/src/entities/linkedin-feed-navigation-context.entity.ts#L5)*
+*Defined in [src/entities/linkedin-feed-navigation-context.entity.ts:5](https://github.com/khanhtranngoccva/linkedin-private-api/blob/17c022a/src/entities/linkedin-feed-navigation-context.entity.ts#L5)*

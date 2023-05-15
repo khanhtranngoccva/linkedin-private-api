@@ -27,7 +27,7 @@
 
 \+ **new Login**(`__namedParameters`: { client: [Client](_src_core_client_.client.md)  }): [Login](_src_core_login_.login.md)
 
-*Defined in [src/core/login.ts:22](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a63729e/src/core/login.ts#L22)*
+*Defined in [src/core/login.ts:22](https://github.com/khanhtranngoccva/linkedin-private-api/blob/17c022a/src/core/login.ts#L22)*
 
 #### Parameters:
 
@@ -43,7 +43,7 @@ Name | Type |
 
 ▸ **deserialize**(`data`: Record<string, string\>): void
 
-*Defined in [src/core/login.ts:42](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a63729e/src/core/login.ts#L42)*
+*Defined in [src/core/login.ts:42](https://github.com/khanhtranngoccva/linkedin-private-api/blob/17c022a/src/core/login.ts#L42)*
 
 #### Parameters:
 
@@ -59,7 +59,7 @@ ___
 
 ▸ **serialize**(): Record<string, string\>
 
-*Defined in [src/core/login.ts:38](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a63729e/src/core/login.ts#L38)*
+*Defined in [src/core/login.ts:38](https://github.com/khanhtranngoccva/linkedin-private-api/blob/17c022a/src/core/login.ts#L38)*
 
 **Returns:** Record<string, string\>
 
@@ -69,7 +69,7 @@ ___
 
 ▸ **userCookie**(`__namedParameters`: { cookies: { JSESSIONID: string ; li_at?: undefined \| string  } ; useCache: boolean = true; username: undefined \| string  }): Promise<[Client](_src_core_client_.client.md)\>
 
-*Defined in [src/core/login.ts:123](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a63729e/src/core/login.ts#L123)*
+*Defined in [src/core/login.ts:123](https://github.com/khanhtranngoccva/linkedin-private-api/blob/17c022a/src/core/login.ts#L123)*
 
 #### Parameters:
 
@@ -85,7 +85,7 @@ ___
 
 ▸ **userPass**(`__namedParameters`: { password: undefined \| string ; useCache: boolean = true; username: string  }): Promise<[Client](_src_core_client_.client.md)\>
 
-*Defined in [src/core/login.ts:87](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a63729e/src/core/login.ts#L87)*
+*Defined in [src/core/login.ts:87](https://github.com/khanhtranngoccva/linkedin-private-api/blob/17c022a/src/core/login.ts#L87)*
 
 #### Parameters:
 
