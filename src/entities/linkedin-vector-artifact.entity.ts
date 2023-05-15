@@ -3,5 +3,5 @@ export interface LinkedInVectorArtifact {
   expiresAt: number;
   fileIdentifyingUrlPathSegment: string;
   height: number;
-  with: number;
+  width: number;
 }

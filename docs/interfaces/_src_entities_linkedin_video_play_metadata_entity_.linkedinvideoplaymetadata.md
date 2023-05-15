@@ -33,7 +33,7 @@
 
 •  **$type**: *typeof* [LINKEDIN\_VIDEO\_PLAY\_METADATA\_TYPE](../modules/_src_entities_linkedin_video_play_metadata_entity_.md#linkedin_video_play_metadata_type)
 
-*Defined in [src/entities/linkedin-video-play-metadata.entity.ts:8](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/entities/linkedin-video-play-metadata.entity.ts#L8)*
+*Defined in [src/entities/linkedin-video-play-metadata.entity.ts:8](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-video-play-metadata.entity.ts#L8)*
 
 ___
 
@@ -41,7 +41,7 @@ ___
 
 •  **aspectRatio**: number
 
-*Defined in [src/entities/linkedin-video-play-metadata.entity.ts:9](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/entities/linkedin-video-play-metadata.entity.ts#L9)*
+*Defined in [src/entities/linkedin-video-play-metadata.entity.ts:9](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-video-play-metadata.entity.ts#L9)*
 
 ___
 
@@ -49,7 +49,7 @@ ___
 
 •  **duration**: number
 
-*Defined in [src/entities/linkedin-video-play-metadata.entity.ts:10](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/entities/linkedin-video-play-metadata.entity.ts#L10)*
+*Defined in [src/entities/linkedin-video-play-metadata.entity.ts:10](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-video-play-metadata.entity.ts#L10)*
 
 ___
 
@@ -57,7 +57,7 @@ ___
 
 •  **entityUrn**: string
 
-*Defined in [src/entities/linkedin-video-play-metadata.entity.ts:11](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/entities/linkedin-video-play-metadata.entity.ts#L11)*
+*Defined in [src/entities/linkedin-video-play-metadata.entity.ts:11](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-video-play-metadata.entity.ts#L11)*
 
 ___
 
@@ -65,7 +65,7 @@ ___
 
 •  **firstFrameThumbnail**: unknown
 
-*Defined in [src/entities/linkedin-video-play-metadata.entity.ts:12](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/entities/linkedin-video-play-metadata.entity.ts#L12)*
+*Defined in [src/entities/linkedin-video-play-metadata.entity.ts:12](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-video-play-metadata.entity.ts#L12)*
 
 ___
 
@@ -73,7 +73,7 @@ ___
 
 •  **liveStreamCreatedAt**: Date \| null
 
-*Defined in [src/entities/linkedin-video-play-metadata.entity.ts:13](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/entities/linkedin-video-play-metadata.entity.ts#L13)*
+*Defined in [src/entities/linkedin-video-play-metadata.entity.ts:13](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-video-play-metadata.entity.ts#L13)*
 
 ___
 
@@ -81,7 +81,7 @@ ___
 
 •  **liveStreamEndedAt**: Date \| null
 
-*Defined in [src/entities/linkedin-video-play-metadata.entity.ts:14](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/entities/linkedin-video-play-metadata.entity.ts#L14)*
+*Defined in [src/entities/linkedin-video-play-metadata.entity.ts:14](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-video-play-metadata.entity.ts#L14)*
 
 ___
 
@@ -89,7 +89,7 @@ ___
 
 •  **media**: string
 
-*Defined in [src/entities/linkedin-video-play-metadata.entity.ts:15](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/entities/linkedin-video-play-metadata.entity.ts#L15)*
+*Defined in [src/entities/linkedin-video-play-metadata.entity.ts:15](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-video-play-metadata.entity.ts#L15)*
 
 ___
 
@@ -97,7 +97,7 @@ ___
 
 •  **progressiveStreams**: [LinkedinVideoProgressiveDownloadMetadata](_src_entities_linkedin_video_progressive_download_metadata_entity_.linkedinvideoprogressivedownloadmetadata.md)[]
 
-*Defined in [src/entities/linkedin-video-play-metadata.entity.ts:20](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/entities/linkedin-video-play-metadata.entity.ts#L20)*
+*Defined in [src/entities/linkedin-video-play-metadata.entity.ts:20](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-video-play-metadata.entity.ts#L20)*
 
 ___
 
@@ -105,7 +105,7 @@ ___
 
 •  **provider**: string
 
-*Defined in [src/entities/linkedin-video-play-metadata.entity.ts:16](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/entities/linkedin-video-play-metadata.entity.ts#L16)*
+*Defined in [src/entities/linkedin-video-play-metadata.entity.ts:16](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-video-play-metadata.entity.ts#L16)*
 
 ___
 
@@ -113,7 +113,7 @@ ___
 
 •  **thumbnail**: [LinkedInVectorImage](_src_entities_linkedin_vector_image_entity_.linkedinvectorimage.md)
 
-*Defined in [src/entities/linkedin-video-play-metadata.entity.ts:17](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/entities/linkedin-video-play-metadata.entity.ts#L17)*
+*Defined in [src/entities/linkedin-video-play-metadata.entity.ts:17](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-video-play-metadata.entity.ts#L17)*
 
 ___
 
@@ -121,7 +121,7 @@ ___
 
 •  **thumbnails**: unknown
 
-*Defined in [src/entities/linkedin-video-play-metadata.entity.ts:18](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/entities/linkedin-video-play-metadata.entity.ts#L18)*
+*Defined in [src/entities/linkedin-video-play-metadata.entity.ts:18](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-video-play-metadata.entity.ts#L18)*
 
 ___
 
@@ -129,7 +129,7 @@ ___
 
 •  **trackingId**: string
 
-*Defined in [src/entities/linkedin-video-play-metadata.entity.ts:19](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/entities/linkedin-video-play-metadata.entity.ts#L19)*
+*Defined in [src/entities/linkedin-video-play-metadata.entity.ts:19](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-video-play-metadata.entity.ts#L19)*
 
 ___
 
@@ -137,4 +137,4 @@ ___
 
 •  **transcripts**: unknown[]
 
-*Defined in [src/entities/linkedin-video-play-metadata.entity.ts:21](https://github.com/khanhtranngoccva/linkedin-private-api/blob/b1cbdad/src/entities/linkedin-video-play-metadata.entity.ts#L21)*
+*Defined in [src/entities/linkedin-video-play-metadata.entity.ts:21](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a682f4e/src/entities/linkedin-video-play-metadata.entity.ts#L21)*
