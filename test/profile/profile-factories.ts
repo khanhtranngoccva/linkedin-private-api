@@ -13,7 +13,7 @@ const createVectorArtifact = (count: number): LinkedInVectorArtifact[] =>
     expiresAt: faker.datatype.number(),
     fileIdentifyingUrlPathSegment: faker.internet.url(),
     height: faker.datatype.number(),
-    with: faker.datatype.number(),
+    width: faker.datatype.number(),
   }));
 
 const createVectorImage = (count: number): LinkedInVectorImage[] =>

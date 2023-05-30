@@ -22,4 +22,4 @@
 
 •  **jobPosting**: [PopulatedJobPosting](_src_entities_job_search_hit_entity_.populatedjobposting.md)
 
-*Defined in [src/entities/job-search-hit.entity.ts:15](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a197b9e/src/entities/job-search-hit.entity.ts#L15)*
+*Defined in [src/entities/job-search-hit.entity.ts:15](https://github.com/khanhtranngoccva/linkedin-private-api/blob/e33dfd5/src/entities/job-search-hit.entity.ts#L15)*

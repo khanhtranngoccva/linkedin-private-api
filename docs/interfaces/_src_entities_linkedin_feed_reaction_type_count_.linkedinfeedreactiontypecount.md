@@ -12,30 +12,30 @@
 
 ### Properties
 
+* [$type](_src_entities_linkedin_feed_reaction_type_count_.linkedinfeedreactiontypecount.md#$type)
+* [count](_src_entities_linkedin_feed_reaction_type_count_.linkedinfeedreactiontypecount.md#count)
 * [reactionType](_src_entities_linkedin_feed_reaction_type_count_.linkedinfeedreactiontypecount.md#reactiontype)
-* [socialDetailEntityUrn](_src_entities_linkedin_feed_reaction_type_count_.linkedinfeedreactiontypecount.md#socialdetailentityurn)
-* [urn](_src_entities_linkedin_feed_reaction_type_count_.linkedinfeedreactiontypecount.md#urn)
 
 ## Properties
 
+### $type
+
+•  **$type**: \"com.linkedin.voyager.feed.social.ReactionTypeCount\"
+
+*Defined in [src/entities/linkedin-feed-reaction-type-count.ts:5](https://github.com/khanhtranngoccva/linkedin-private-api/blob/e33dfd5/src/entities/linkedin-feed-reaction-type-count.ts#L5)*
+
+___
+
+### count
+
+•  **count**: number
+
+*Defined in [src/entities/linkedin-feed-reaction-type-count.ts:7](https://github.com/khanhtranngoccva/linkedin-private-api/blob/e33dfd5/src/entities/linkedin-feed-reaction-type-count.ts#L7)*
+
+___
+
 ### reactionType
 
-•  **reactionType**: \"LIKE\" \| \"EMPATHY\" \| \"PRAISE\" \| \"INTEREST\" \| \"APPRECIATION\" \| \"MAYBE\" \| \"ENTERTAINMENT\" \| unknown
+•  **reactionType**: [LinkedInReactionType](../modules/_src_entities_linkedin_social_reaction_type_entity_.md#linkedinreactiontype)
 
-*Defined in [src/entities/linkedin-feed-reaction-type-count.ts:2](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a197b9e/src/entities/linkedin-feed-reaction-type-count.ts#L2)*
-
-___
-
-### socialDetailEntityUrn
-
-•  **socialDetailEntityUrn**: string
-
-*Defined in [src/entities/linkedin-feed-reaction-type-count.ts:3](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a197b9e/src/entities/linkedin-feed-reaction-type-count.ts#L3)*
-
-___
-
-### urn
-
-•  **urn**: string
-
-*Defined in [src/entities/linkedin-feed-reaction-type-count.ts:4](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a197b9e/src/entities/linkedin-feed-reaction-type-count.ts#L4)*
+*Defined in [src/entities/linkedin-feed-reaction-type-count.ts:6](https://github.com/khanhtranngoccva/linkedin-private-api/blob/e33dfd5/src/entities/linkedin-feed-reaction-type-count.ts#L6)*

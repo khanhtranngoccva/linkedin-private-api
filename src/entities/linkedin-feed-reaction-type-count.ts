@@ -1,5 +1,8 @@
+import {LinkedInReactionType} from "./linkedin-social-reaction-type.entity";
+
+
 export interface LinkedInFeedReactionTypeCount {
-    reactionType: "LIKE" | "EMPATHY" | "PRAISE" | "INTEREST" | "APPRECIATION" | "MAYBE" | "ENTERTAINMENT" | unknown,
-    socialDetailEntityUrn: string,
-    urn: string,
+    $type: "com.linkedin.voyager.feed.social.ReactionTypeCount";
+    reactionType: LinkedInReactionType,
+    count: number,
 }

@@ -26,7 +26,7 @@
 
 •  **$type**: \"com.linkedin.voyager.feed.actions.Action\"
 
-*Defined in [src/entities/linkedin-feed-action.entity.ts:4](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a197b9e/src/entities/linkedin-feed-action.entity.ts#L4)*
+*Defined in [src/entities/linkedin-feed-action.entity.ts:4](https://github.com/khanhtranngoccva/linkedin-private-api/blob/e33dfd5/src/entities/linkedin-feed-action.entity.ts#L4)*
 
 ___
 
@@ -34,7 +34,7 @@ ___
 
 •  **actionType**: \"SAVE\" \| \"SHARE\_VIA\" \| \"DISINTEREST\" \| \"REPORT\" \| \"UNFOLLOW\_MEMBER\" \| \"REMOVE\_CONNECTION\"
 
-*Defined in [src/entities/linkedin-feed-action.entity.ts:5](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a197b9e/src/entities/linkedin-feed-action.entity.ts#L5)*
+*Defined in [src/entities/linkedin-feed-action.entity.ts:5](https://github.com/khanhtranngoccva/linkedin-private-api/blob/e33dfd5/src/entities/linkedin-feed-action.entity.ts#L5)*
 
 ___
 
@@ -42,7 +42,7 @@ ___
 
 •  **icon**: [LinkedInImageViewModel](_src_entities_linkedin_image_view_model_entity_.linkedinimageviewmodel.md)
 
-*Defined in [src/entities/linkedin-feed-action.entity.ts:6](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a197b9e/src/entities/linkedin-feed-action.entity.ts#L6)*
+*Defined in [src/entities/linkedin-feed-action.entity.ts:6](https://github.com/khanhtranngoccva/linkedin-private-api/blob/e33dfd5/src/entities/linkedin-feed-action.entity.ts#L6)*
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 • `Optional` **secondaryAction**: [LinkedInFeedAction](_src_entities_linkedin_feed_action_entity_.linkedinfeedaction.md)
 
-*Defined in [src/entities/linkedin-feed-action.entity.ts:8](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a197b9e/src/entities/linkedin-feed-action.entity.ts#L8)*
+*Defined in [src/entities/linkedin-feed-action.entity.ts:8](https://github.com/khanhtranngoccva/linkedin-private-api/blob/e33dfd5/src/entities/linkedin-feed-action.entity.ts#L8)*
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 • `Optional` **targetUrn**: undefined \| string
 
-*Defined in [src/entities/linkedin-feed-action.entity.ts:9](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a197b9e/src/entities/linkedin-feed-action.entity.ts#L9)*
+*Defined in [src/entities/linkedin-feed-action.entity.ts:9](https://github.com/khanhtranngoccva/linkedin-private-api/blob/e33dfd5/src/entities/linkedin-feed-action.entity.ts#L9)*
 
 ___
 
@@ -66,7 +66,7 @@ ___
 
 •  **text**: string
 
-*Defined in [src/entities/linkedin-feed-action.entity.ts:7](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a197b9e/src/entities/linkedin-feed-action.entity.ts#L7)*
+*Defined in [src/entities/linkedin-feed-action.entity.ts:7](https://github.com/khanhtranngoccva/linkedin-private-api/blob/e33dfd5/src/entities/linkedin-feed-action.entity.ts#L7)*
 
 ___
 
@@ -74,4 +74,4 @@ ___
 
 • `Optional` **url**: undefined \| string
 
-*Defined in [src/entities/linkedin-feed-action.entity.ts:10](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a197b9e/src/entities/linkedin-feed-action.entity.ts#L10)*
+*Defined in [src/entities/linkedin-feed-action.entity.ts:10](https://github.com/khanhtranngoccva/linkedin-private-api/blob/e33dfd5/src/entities/linkedin-feed-action.entity.ts#L10)*

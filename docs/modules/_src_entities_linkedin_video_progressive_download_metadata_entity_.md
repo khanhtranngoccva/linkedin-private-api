@@ -20,4 +20,4 @@
 
 • `Const` **VIDEO\_PROGRESSIVE\_DOWNLOAD\_METADATA\_TYPE**: \"com.linkedin.videocontent.ProgressiveDownloadMetadata\" = "com.linkedin.videocontent.ProgressiveDownloadMetadata"
 
-*Defined in [src/entities/linkedin-video-progressive-download-metadata.entity.ts:3](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a197b9e/src/entities/linkedin-video-progressive-download-metadata.entity.ts#L3)*
+*Defined in [src/entities/linkedin-video-progressive-download-metadata.entity.ts:3](https://github.com/khanhtranngoccva/linkedin-private-api/blob/e33dfd5/src/entities/linkedin-video-progressive-download-metadata.entity.ts#L3)*

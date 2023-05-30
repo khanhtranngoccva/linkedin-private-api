@@ -23,7 +23,7 @@
 
 •  **$type**: \"com.linkedin.voyager.feed.actions.UpdateActions\"
 
-*Defined in [src/entities/linkedin-feed-update-actions.entity.ts:4](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a197b9e/src/entities/linkedin-feed-update-actions.entity.ts#L4)*
+*Defined in [src/entities/linkedin-feed-update-actions.entity.ts:4](https://github.com/khanhtranngoccva/linkedin-private-api/blob/e33dfd5/src/entities/linkedin-feed-update-actions.entity.ts#L4)*
 
 ___
 
@@ -31,7 +31,7 @@ ___
 
 •  **actions**: [LinkedInFeedAction](_src_entities_linkedin_feed_action_entity_.linkedinfeedaction.md)[]
 
-*Defined in [src/entities/linkedin-feed-update-actions.entity.ts:5](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a197b9e/src/entities/linkedin-feed-update-actions.entity.ts#L5)*
+*Defined in [src/entities/linkedin-feed-update-actions.entity.ts:5](https://github.com/khanhtranngoccva/linkedin-private-api/blob/e33dfd5/src/entities/linkedin-feed-update-actions.entity.ts#L5)*
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 •  **dashEntityUrn**: string
 
-*Defined in [src/entities/linkedin-feed-update-actions.entity.ts:7](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a197b9e/src/entities/linkedin-feed-update-actions.entity.ts#L7)*
+*Defined in [src/entities/linkedin-feed-update-actions.entity.ts:7](https://github.com/khanhtranngoccva/linkedin-private-api/blob/e33dfd5/src/entities/linkedin-feed-update-actions.entity.ts#L7)*
 
 ___
 
@@ -47,4 +47,4 @@ ___
 
 •  **entityUrn**: string
 
-*Defined in [src/entities/linkedin-feed-update-actions.entity.ts:6](https://github.com/khanhtranngoccva/linkedin-private-api/blob/a197b9e/src/entities/linkedin-feed-update-actions.entity.ts#L6)*
+*Defined in [src/entities/linkedin-feed-update-actions.entity.ts:6](https://github.com/khanhtranngoccva/linkedin-private-api/blob/e33dfd5/src/entities/linkedin-feed-update-actions.entity.ts#L6)*

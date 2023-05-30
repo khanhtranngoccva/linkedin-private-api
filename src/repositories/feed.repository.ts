@@ -6,7 +6,7 @@ import {
     LinkedInFeedUpdate,
     LinkedInFeedUpdateUrn
 } from "../entities/linkedin-feed-update.entity";
-import {FeedResponse, FeedUpdateActionsResponse} from "../responses/feed.response";
+import {FeedResponse} from "../responses/feed.response";
 import {LinkedInMiniProfile, LinkedInVectorImage, MINI_PROFILE_TYPE, MiniProfileUrn} from "../entities";
 import {
     LINKEDIN_VIDEO_PLAY_METADATA_TYPE,

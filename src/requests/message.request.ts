@@ -1,4 +1,4 @@
-import { ProfileId } from 'src/entities';
+import { ProfileId } from '../entities';
 
 import { LinkedInRequest } from '../core/linkedin-request';
 import { ConversationId } from '../entities/conversation.entity';
@@ -52,7 +52,7 @@ export class MessageRequest {
     const directMessageUrl = 'messaging/conversations'
 
     const payload = conversationId ? conversationPayload : directMessagePayload
-    const url = conversationId ? conversationUrl : directMessageUrl 
+    const url = conversationId ? conversationUrl : directMessageUrl
 
     return this.request.post<SendMessageResponse>(url, payload, { params: queryParams });
   }
